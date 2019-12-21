@@ -1,0 +1,49 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding:  24rpx;
+}
+
+.cost-list{
+    padding:0 28rpx;
+    background: #fff;
+    border-radius: 8px;
+}
+.cost-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40rpx 0;
+}
+.cost-name{
+    font-size: 16px;
+}
+.card-type{
+    font-size: 14px;
+    color: rgba(0,0,0,0.41);
+    margin-top: 10rpx;
+}
+.cost-right{
+    text-align: right;
+}
+.price-box{
+    color: #FF3032;
+}
+.price{
+    font-size: 14px;
+}
+.dollar{
+    font-size: 12px;
+}
+.time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    margin-top: 10rpx;
+}
+.line{
+    width: 640rpx;
+    height: 2rpx;
+    background: #797979;
+    opacity: 0.1;
+}

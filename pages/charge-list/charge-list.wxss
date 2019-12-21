@@ -1,0 +1,131 @@
+@import "/asset/style/shade.wxss";
+page {
+    background: #FBFAFA;
+}
+
+.wrap {
+    padding: 0 24rpx;
+}
+
+.header-sift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sift {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 14rpx 26rpx;
+}
+
+.s-name {
+    font-size: 14px;
+    color: #F59798;
+    margin-right: 16rpx;
+}
+
+.sift image {
+    width: 28rpx;
+    height: 30rpx;
+    color: #F59798;
+}
+
+.title {
+    padding: 20rpx 28rpx;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+    opacity: 0.6;
+}
+
+/* 筛选结束 */
+
+.charge-header {
+    background: #FBE7E7;
+    border-radius: 8px;
+    padding: 16rpx 30rpx;
+}
+
+.charge-text {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    margin-bottom: 10rpx;
+}
+
+.expenditure {
+    color: #F59798;
+    font-weight: 800;
+}
+
+.dollar {
+    font-size: 12px;
+}
+
+.money {
+    font-size: 14px;
+}
+
+/* 列表样式 */
+
+.charge-item {
+  
+}
+
+.charge-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 22rpx 20rpx;
+}
+
+.charge-date {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+}
+.total-charge{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+}
+.line {
+    width: 672rpx;
+    height: 2rpx;
+    background: #979797;
+    opacity: 0.1;
+}
+
+.detail-content {
+    padding: 18rpx 26rpx;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 12rpx 0;
+   
+}
+
+.item-left {
+    display: flex;
+}
+
+.icon {
+    width: 48rpx;
+    height: 48rpx;
+    background: rgb(248, 192, 192);
+    border-radius: 50%;
+    margin-right: 20rpx;
+    /* margin-top: 14rpx; */
+}
+
+.detail-name {
+    height: 48rpx;
+    line-height: 48rpx;
+    font-size: 14px;
+}
+
+.item-money {
+    font-size: 14px;
+}

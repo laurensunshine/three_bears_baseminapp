@@ -1,0 +1,22 @@
+<view class="wrap">
+    <view class="change-box">
+        <view class="change-item">
+            <view class="old-passowrd">原密码</view>
+            <input type="text" class="change-input" placeholder="请输入原来的密码" placeholder-style='font-size:12px;'></input>
+        </view>
+        <view class="line"></view>
+        <view class="change-item">
+            <view class="new-passowrd">新密码</view>
+            <input type="text" class="change-input" placeholder="填写新密码" placeholder-style='font-size:12px;'></input>
+        </view>
+        <view class="line"></view>
+        <view class="change-item">
+            <view class="re-passowrd">确认密码</view>
+            <input type="text" class="change-input" placeholder="再次确认密码" placeholder-style='font-size:12px;'></input>
+        </view>
+    </view>
+</view>
+<view class="button">
+    <view class="del">删除</view>
+    <view class="edit">修改</view>
+</view>

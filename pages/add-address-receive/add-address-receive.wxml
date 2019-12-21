@@ -1,0 +1,52 @@
+<view class="wrap">
+    <view class="address-list">
+        <view class="address-item">
+            <view class="avatar">
+                <image src="/asset/images/t_pic2.png" />
+            </view>
+            <view class="person-detail">
+                <view class="name">
+                    lauren
+                    <text class="phone-number">15879632145</text>
+                </view>
+                <view class="address-detail">北京市 昌平区 回龙观街道西三旗桥西 新龙大厦</view>
+            </view>
+            <navigator open-type="navigate" url="/pages/edit-address/edit-address?navName=修改地址">
+                <view class="edit">编辑</view>
+            </navigator>
+        </view>
+        <view class="address-item">
+            <view class="avatar">
+                <image src="/asset/images/t_pic2.png" />
+            </view>
+            <view class="person-detail">
+                <view class="name">
+                    lauren
+                    <text class="phone-number">15879632145</text>
+                </view>
+                <view class="address-detail">北京市 昌平区 回龙观街道西三旗桥西 新龙大厦</view>
+            </view>
+            <navigator open-type="navigate" url="/pages/edit-address/edit-address?navName=修改地址">
+                <view class="edit">编辑</view>
+            </navigator>
+        </view>
+        <view class="address-item">
+            <view class="avatar">
+                <image src="/asset/images/t_pic2.png" />
+            </view>
+            <view class="person-detail">
+                <view class="name">
+                    lauren
+                    <text class="phone-number">15879632145</text>
+                </view>
+                <view class="address-detail">北京市 昌平区 回龙观街道西三旗桥西 新龙大厦</view>
+            </view>
+            <navigator open-type="navigate" url="/pages/edit-address/edit-address?navName=修改地址">
+                <view class="edit">编辑</view>
+            </navigator>
+        </view>
+    </view>
+</view>
+<navigator open-type="navigate" url="/pages/add-address/add-address?navName=添加地址">
+    <view class="button">新增地址</view>
+</navigator>

@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view class="change">
+        <view class="nickname">lauren</view>
+        <input type="text" class="change-input" placeholder-style='font-size:12px;'></input>
+    </view>
+    <view class="tip">好的用户名称可以让大家更容易记住你</view>
+</view>
+<view class="button">保存</view>

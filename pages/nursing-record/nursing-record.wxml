@@ -1,0 +1,80 @@
+<view class="wrap">
+    <scroll-view scroll-y="{{true}}">
+        <view class="container">
+            <view class="nursing-list">
+                <view class="nrusing-item">
+                    <view class="header">
+                        <view class="vip-detail">
+                            <view class="avatar">
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view class="vip-detail-list">
+                                <view class="vip-name">会员名称</view>
+                                <view class="nursing-name">护理名称</view>
+                            </view>
+                        </view>
+                        <view class="nursing-time">2019.11.23</view>
+                    </view>
+                    <view class="tec-name">技师：周晓宇</view>
+                    <!-- <view class="tag-list">
+                        <view class="tag">标签</view>
+                        <view class="tag">标签</view>
+                        <view class="tag">标签</view>
+                    </view> -->
+                    <view class="nursing-log">
+                        <view class="log-content">this is the log for clients' nursing</view>
+                        <view class="log-pics">
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                        </view>
+                    </view>
+                </view>
+                <view class="nrusing-item">
+                    <view class="header">
+                        <view class="vip-detail">
+                            <view class="avatar">
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view class="vip-detail-list">
+                                <view class="vip-name">会员名称</view>
+                                <view class="nursing-name">护理名称</view>
+                            </view>
+                        </view>
+                        <view class="nursing-time">2019.11.23</view>
+                    </view>
+                    <view class="tec-name">技师：周晓宇</view>
+                    <view class="tag-list">
+                        <view class="tag">标签</view>
+                        <view class="tag">标签</view>
+                        <view class="tag">标签</view>
+                    </view>
+                    <view class="nursing-log">
+                        <view class="log-content">this is the log for clients' nursing</view>
+                        <view class="log-pics">
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                            <view>
+                                <image src="/asset/images/t_pic2.png" />
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+    <navigator open-type="navigate" url="/pages/add-nursing-record/add-nursing-record">
+        <view class="add">添加护理记录</view>
+    </navigator>
+    <view class="block"></view>
+</view>

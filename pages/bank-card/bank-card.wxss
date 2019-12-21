@@ -1,0 +1,26 @@
+@import "/asset/style/button.wxss";
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+.bank-item{
+    padding: 46rpx;
+    background: #f59798;
+    border-radius: 8px;
+   
+}
+.card-name{
+    font-size: 14px;
+    color: #fff;
+}
+.card-type{
+    font-size: 12px;
+    margin:20rpx 0;
+    color: rgba(255, 255, 255, 0.67);
+}
+.card-number{
+    font-size: 14px;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+<view class="wrap">
+    <navigator open-type="navigate" url="/pages/down-shop-history/down-shop-history">
+        <view class="history">历史记录</view>
+    </navigator>
+    <view class="down-shop-list">
+        <view class="down-shop-item">
+            <view class="shop-title">
+                <view class="shop-name">三只熊(北京店)</view>
+                <view class="down-time">2019.03.12 12：00</view>
+            </view>
+            <view class="down-detail">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic1.png" />
+                </view>
+                <view class="teacher-detail">
+                    <view class="teacher-name">lauren</view>
+                    <view class="dura-time">2019.06.12-2019.06.15</view>
+                </view>
+            </view>
+            <view class="total-day">
+                <text class="total">共计三天  合计：</text>
+                <text class="dollar">￥</text>
+                <text class="salary">1,500</text>
+            </view>
+            <view class="passed">通过</view>
+        </view>
+    </view>
+</view>

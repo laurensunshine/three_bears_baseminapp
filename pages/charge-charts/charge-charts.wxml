@@ -1,0 +1,98 @@
+<view class="wrap">
+    <view class="sift-title">
+        <!-- <view class="times">三只熊（北京店）</view> -->
+        <picker bindchange="bindShopChange" value="{{index}}" range="{{shopName}}">
+            <view class="picker">
+                <view class="picker-name">三只熊（{{shopName[index1]}}）</view>
+                <view class="img">
+                    <image src="/asset/images/down.png" />
+                </view>
+            </view>
+        </picker>
+    </view>
+    <view class="nav">
+        <block wx:for="{{styles}}" wx:key="item">
+            <view class="{{item.class}}" data-index="{{index}}" bind:tap="tab">{{item.title}}</view>
+        </block>
+    </view>
+    <swiper class="tab" current="{{index}}" bindchange="switchTab" style="height:{{winHeight}}rpx">
+        <swiper-item class="all-order">
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="top">
+                    <view class="top-title">
+                        <view class="today-charge">
+                            <text class="charge-text">总支出</text>
+                            <text class="total-charge">5,600</text>
+                        </view>
+                        <navigator open-type="navigate" url="/pages/charge-list/charge-list">
+                            <view class="more">
+                                <view class="check">查看明细</view>
+                                <image src="/asset/images/more.png" />
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+                <view class="charts">
+                    <view class="year-line">
+                        <ec-canvas id="mychart-first-bar" canvas-id="mychart-first-bar" ec="{{ ecYearLine }}"></ec-canvas>
+                    </view>
+                    <view class="charts-pie">
+                        <ec-canvas id="mychart-dom-pie" canvas-id="mychart-dom-pie" ec="{{ ecPie }}"></ec-canvas>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item class="charts-list">
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="top">
+                    <view class="top-title">
+                        <view class="today-charge">
+                            <text class="charge-text">总支出</text>
+                            <text class="total-charge">5,600</text>
+                        </view>
+                        <navigator open-type="navigate" url="/pages/charge-list/charge-list">
+                            <view class="more">
+                                <view class="check">查看明细</view>
+                                <image src="/asset/images/more.png" />
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+                <view class="charts">
+                    <view class="year-line">
+                        <ec-canvas id="mychart-first-bar" canvas-id="mychart-first-bar" ec="{{ ecMonthLine }}"></ec-canvas>
+                    </view>
+                    <view class="charts-pie">
+                        <ec-canvas id="mychart-dom-pie" canvas-id="mychart-dom-pie" ec="{{ ecPie }}"></ec-canvas>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item class="all-order">
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="top">
+                    <view class="top-title">
+                        <view class="today-charge">
+                            <view class="charge-text">总支出</view>
+                            <view class="total-charge">5,600</view>
+                        </view>
+                        <navigator open-type="navigate" url="/pages/charge-list/charge-list">
+                            <view class="more">
+                                <view class="check">查看明细</view>
+                                <image src="/asset/images/more.png" />
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+                <view class="charts">
+                    <view class="year-line">
+                        <ec-canvas id="mychart-first-bar" canvas-id="mychart-first-bar" ec="{{ ecWeekLine }}"></ec-canvas>
+                    </view>
+                    <view class="charts-pie">
+                        <ec-canvas id="mychart-dom-pie" canvas-id="mychart-dom-pie" ec="{{ ecPie }}"></ec-canvas>
+                    </view>
+                </view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>

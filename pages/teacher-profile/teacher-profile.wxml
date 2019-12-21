@@ -1,0 +1,51 @@
+<view class="wrap">
+    <view class="head">
+        <image src="/asset/images/t_profile.png" />
+        <view class="avatar">
+            <image src='/asset/images/t_pic2.png' />
+        </view>
+    </view>
+    <view class="container">
+        <view class="content">
+            <view class="t-intro">
+                <view class="name">李晓汶</view>
+                <view class="experience">
+                    <view class="nation">{{nation}}</view>
+                    <view class="seperator"></view>
+                    <view class="time">从业{{time}}年</view>
+                </view>
+                <view class="cv">
+                    Hey,you guys ,I am China ,I am software engineer. I 've been this industry since I graduated
+                </view>
+            </view>
+        </view>
+        <view class="teacher-detail">
+            <view class="detail-list">
+                <view class="detail-item border-line">
+                    <view class="name">手机</view>
+                    <view class="detail-content">12569874521</view>
+                </view>
+                <view class="detail-item border-line">
+                    <view class="name">住址</view>
+                    <view class="detail-content">北京市  海淀区</view>
+                </view>
+                <view class="detail-item">
+                    <view class="name">身份证号</view>
+                    <view class="detail-content">1256987452112569874521</view>
+                </view>
+            </view>
+        </view>
+        <view class="pics">
+            <view class="p-title">授课环境</view>
+            <view class="p-content">
+                <view class="left">
+                    <image src="/asset/images/t_pic1.png" />
+                    <image src="/asset/images/t_pic1.png" />
+                </view>
+                <view class="right">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

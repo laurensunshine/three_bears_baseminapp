@@ -1,0 +1,45 @@
+<view class="wrap">
+    <view class="title">课程待开课</view>
+    <view class="container">
+        <view class="content">
+            <view class="client">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic1.png" />
+                </view>
+                <view class="client-detail">
+                    <view class="client-name">lauren</view>
+                    <view class="client-phone">13569874521</view>
+                </view>
+            </view>
+            <view class="order-detail">
+                <view class="pro-pic">
+                    <image src="/asset/images/t_pic2.png" />
+                    <view class="pro">
+                        <view class="pro-name">三只熊水乳套装</view>
+                        <view class="order-teacher">讲师lauren</view>
+                        <view class="order-time">上课时间：2019.10.23 18：00</view>
+                    </view>
+                </view>
+                <view class="count">
+                    <view class="price">5,600</view>
+                    <view class="number">x5</view>
+                </view>
+            </view>
+            <view class="order-more-detail">
+                <view class="total">
+                    <view class="total-text">总计</view>
+                    <view class="total-price">15,500</view>
+                </view>
+                <view class="line"></view>
+                <view class="order">
+                    <view class="order-number">订单编号：20002356</view>
+                    <view class="pay-way">支付方式：微信支付</view>
+                    <view class="down-time">下单时间 2019-10-12 18：52</view>
+                    <view class="pay-time">下单时间 2019-10-12 18：55</view>
+                    <view class="done-time">完成时间 2019-10-12 18：52</view>
+                </view>
+            </view>
+            <view class="cancel-class">取消课程</view>
+        </view>
+    </view>
+</view>

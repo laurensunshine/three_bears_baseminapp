@@ -1,0 +1,118 @@
+@import "/asset/style/shade.wxss";
+page {
+    background: #fbfafa;
+}
+
+.wrap {
+    padding: 0 24rpx;
+}
+
+.sift-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20rpx 0;
+}
+
+.sift-condition {
+    display: flex;
+    align-items: center;
+    margin: 0 24rpx;
+}
+
+.times, .resource {
+    font-size: 12px;
+    margin-right: 14rpx;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.sift-img image {
+    width: 24rpx;
+    height: 18rpx;
+}
+
+.sift {
+    padding-left: 26rpx;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.s-text {
+    font-size: 14px;
+    color: #F59798;
+    margin-right: 12rpx;
+    /* margin-bottom: 4rpx; */
+}
+
+.icon-sift image {
+    width: 38rpx;
+    height: 30rpx;
+}
+
+/* 课程列表 */
+
+.class-item {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background: #fff;
+    border-radius: 8px;
+    padding: 20rpx 24rpx;
+    margin-bottom: 20rpx;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.img image {
+    width: 138rpx;
+    height: 138rpx;
+    margin-right: 20rpx;
+}
+
+.course-name {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+}
+
+.class-teacher, .class-time {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    height: 34rpx; 
+    line-height: 34rpx;
+}
+.class-teacher{
+    margin-top: 10rpx;
+}
+.class-status {
+    font-size: 14px;
+    color: #ff7979;
+    font-weight: 600;
+    font-family: SimHei;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.class-number {
+    display: flex;
+    align-content: center;
+    height: 32rpx;
+    line-height: 32rpx;
+    margin-top: 36rpx;
+}
+
+.icon image {
+    width: 24rpx;
+    height: 26rpx;
+    margin-right: 8rpx;
+}
+
+.number {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.41);
+    height: 36rpx;
+    line-height: 36rpx;
+}

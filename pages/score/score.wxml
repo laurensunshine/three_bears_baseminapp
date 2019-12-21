@@ -1,0 +1,49 @@
+<view class="wrap">
+    <scroll-view scroll-y="{{true}}">
+        <view class="score-list">
+            <view class="score-item">
+                <view class="score-left">
+                    <view class="name">lauren</view>
+                    <view class="reason">兑换理由</view>
+                </view>
+                <view class="score-right">
+                    <view class="money">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+             <view class="score-item">
+                <view class="score-left">
+                    <view class="name">lauren</view>
+                    <view class="reason">兑换理由</view>
+                </view>
+                <view class="score-right">
+                    <view class="money">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+             <view class="score-item">
+                <view class="score-left">
+                    <view class="name">lauren</view>
+                    <view class="reason">兑换理由</view>
+                </view>
+                <view class="score-right">
+                    <view class="money">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+             <view class="score-item">
+                <view class="score-left">
+                    <view class="name">lauren</view>
+                    <view class="reason">兑换理由</view>
+                </view>
+                <view class="score-right">
+                    <view class="money">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

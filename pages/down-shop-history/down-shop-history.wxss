@@ -1,0 +1,105 @@
+
+page {
+    background: #FBFAFA;
+}
+.wrap{
+    padding: 24rpx;
+}
+.item {
+    padding: 32rpx 28rpx 32rpx 42rpx;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 20rpx;
+}
+
+.down-shop-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rpx;
+}
+
+.down-home, .status {
+    font-size: 14px;
+    font-family: SimHei;
+    font-weight: 800;
+}
+
+.status {
+    color: #F59798;
+}
+
+.shop-detail {
+    display: flex;
+    align-items: center;
+    margin: 30rpx 0;
+}
+.avatar{
+    padding-top: 10rpx;
+}
+.avatar image {
+    width: 92rpx;
+    height: 92rpx;
+    border-radius: 50%;
+    margin-right: 32rpx;
+}
+
+.down-time {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    /* margin-top: 10rpx; */
+}
+
+.sum {
+    text-align: right;
+}
+
+.total-day, .total {
+    font-size: 12px;
+    padding-right: 20rpx;
+}
+
+.dollar {
+    font-size: 12px;
+    color: #FF3032;
+}
+
+.salary {
+    font-size: 14px;
+    color: #FF3032;
+}
+
+/* 遮罩层的补充内容 */
+
+.s-line {
+    width: 518rpx;
+    height: 2rpx;
+    background: rgba(151, 151, 151, 0.1);
+    margin-left: -40rpx;
+    margin-bottom: 30rpx;
+}
+
+.staff-list {
+    margin-bottom: 38rpx;
+}
+
+.show-list {
+    /* display: flex; */
+    margin-top: 30rpx;
+}
+
+.select-area {
+    width: 194rpx;
+    height: 56rpx;
+    font-size: 14px;
+    line-height: 56rpx;
+    text-align: center;
+    color: #fff;
+    background: #F59798;
+    border-radius: 5px;
+}
+
+.picker {
+    font-size: 14px;
+    margin-top: 30rpx;
+}

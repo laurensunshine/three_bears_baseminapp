@@ -1,0 +1,56 @@
+<view class="wrap">
+    <view class="header">
+        <view class="member">
+            <view class="text">总会员数</view>
+            <view class="members">
+                <text class="number">2000</text>
+                <text class="per">人</text>
+            </view>
+        </view>
+    </view>
+    <view class="container">
+        <view class="header-sift">
+            <view class="title">加盟店</view>
+            <view class="sift" bindtap="show">
+                <view class="s-name">筛选</view>
+                <view>
+                    <image src="/asset/images/sift.png" />
+                </view>
+            </view>
+        </view>
+        <scroll-view scroll-y="{{true}}">
+            <view class="franchiese-list">
+                <block wx:for="{{[1,2,3,4,5,6]}}">
+                    <view class="franchiese-item">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="franchiese">
+                            <view class="franchiese-name">加盟店(上海店)</view>
+                            <view class="total-member">
+                                <view class="left">总会员数</view>
+                                <view class="vip-menbers">5,600人</view>
+                            </view>
+                        </view>
+                    </view>
+                </block>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">所属店铺</view>
+            <input type="text" class="client-content" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

@@ -1,0 +1,64 @@
+<view class="wrap">
+    <view class="header">
+        <view class="c-title" bindtap="show">
+            <view class="month">本月</view>
+            <view class="down">
+                <image src="/asset/images/down.png" />
+            </view>
+        </view>
+        <view class="t-title" bindtap="showType">
+            <view class="type">分类</view>
+            <view class="down">
+                <image src="/asset/images/down.png" />
+            </view>
+        </view>
+    </view>
+    <scroll-view scroll-y="{{true}}">
+        <view class="bill-list">
+            <view class="bill-item">
+                <view class="bill-left">
+                    <view class="bill-name">高级护理课程</view>
+                    <view class="type">课程</view>
+                </view>
+                <view class="bill-right">
+                    <view class="price">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+            <view class="bill-item">
+                <view class="bill-left">
+                    <view class="bill-name">高级护理课程</view>
+                    <view class="type">课程</view>
+                </view>
+                <view class="bill-right">
+                    <view class="price">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+            <view class="bill-item">
+                <view class="bill-left">
+                    <view class="bill-name">高级护理课程</view>
+                    <view class="type">课程</view>
+                </view>
+                <view class="bill-right">
+                    <view class="price">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+            <view class="line"></view>
+            <view class="bill-item">
+                <view class="bill-left">
+                    <view class="bill-name">高级护理课程</view>
+                    <view class="type">课程</view>
+                </view>
+                <view class="bill-right">
+                    <view class="price">-1,600</view>
+                    <view class="time">09-90 12:13</view>
+                </view>
+            </view>
+          
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,48 @@
+<view class="wrap">
+    <view class="title">
+        <view class="title-status">等待学员付款</view>
+        <view class="title-time">19分36秒后自动取消</view>
+    </view>
+    <view class="container">
+        <view class="content">
+            <view class="client">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic1.png" />
+                </view>
+                <view class="client-detail">
+                    <view class="client-name">lauren</view>
+                    <view class="client-phone">13569874521</view>
+                </view>
+            </view>
+            <view class="order-detail">
+                <view class="pro-pic">
+                    <image src="/asset/images/t_pic2.png" />
+                    <view class="pro">
+                        <view class="pro-name">三只熊水乳套装</view>
+                        <view class="order-teacher">讲师lauren</view>
+                        <view class="order-time">上课时间：2019.10.23 18：00</view>
+                    </view>
+                </view>
+                <view class="count">
+                    <view class="price">5,600</view>
+                    <view class="number">x5</view>
+                </view>
+            </view>
+            <view class="order-more-detail">
+                <view class="total">
+                    <view class="total-text">总计</view>
+                    <view class="total-price">15,500</view>
+                </view>
+                <view class="line"></view>
+                <view class="order">
+                    <view class="order-number">订单编号：20002356</view>
+                    <view class="pay-time">下单时间 2019-10-12 18：55</view>
+                </view>
+            </view>
+            <view class="real-pay-box">
+                <view class="real-pay">实付款：<text class="real-price">5,600</text></view>
+                <view class="right-pay">立即支付</view>
+            </view>
+        </view>
+    </view>
+</view>

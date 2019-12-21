@@ -1,0 +1,104 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+.a-class{
+    width: 702rpx;
+    /* height: 542rpx; */
+    background: #fff;
+    border-radius: 16rpx;
+    margin-bottom: 20rpx;
+}
+.img image{
+    width: 702rpx;
+    height: 330rpx;
+    border-radius: 8px;
+}
+.container{
+    padding: 20rpx 28rpx;
+}
+.class_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 8rpx 28rpx ;  */
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-title{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: SimHei;
+    color: #000;
+}
+
+.ticket image{
+    width: 28rpx;
+    height: 28rpx;
+}
+.ticket{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rpx 28rpx 0rpx 26rpx;
+}
+.t-text{
+    font-size: 12px;
+    color: #FF8787;
+    margin:0 5rpx ;
+}
+.status{
+    font-size: 14px;
+    color: #F59798;
+    padding-right: 14rpx;
+}
+.stars{
+    margin:8rpx 0;
+}
+.stars image{
+    width: 24rpx;
+    height: 26rpx;
+    margin-right: 6rpx;
+}
+.content{
+    font-size:12px;
+    color: #9F9F9F;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    /* padding:4rpx 26rpx 4rpx 28rpx; */
+}
+
+.person,
+.pro,
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rpx 0;
+}
+
+.pro image{
+    width: 30rpx;
+    height: 30rpx;
+}
+.name{
+    font-size: 12px;
+    color:#9F9F9F;
+    margin-left: 14rpx;
+}
+.time image{
+    width: 32rpx;
+    height: 28rpx;
+    padding-top: 2rpx;
+}
+.date,
+.now{
+    font-size: 12px;
+    color: #9f9f9f;
+    margin-left: 10rpx;
+}

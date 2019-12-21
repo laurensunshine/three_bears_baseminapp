@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view class="header">
+        <view class="title">交易成功</view>
+        <view class="tip">去评价一下本次的购物体验吧</view>
+        <view class="back-home">返回首页</view>
+    </view>
+    <view class="like-box">- <text class="like">猜你喜欢</text> -</view>
+</view>

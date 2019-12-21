@@ -1,0 +1,41 @@
+<view class="wrap">
+    <view class="order-detail">
+        <view class="pro-pic">
+            <image src="/asset/images/t_pic2.png" />
+            <view class="pro">
+                <view class="pro-name">三只熊水乳套装</view>
+                <view class="order-teacher">讲师lauren</view>
+                <view class="order-time">上课时间：2019.10.23 18：00</view>
+            </view>
+        </view>
+        <view class="count">
+            <view class="price">5,600</view>
+            <view class="number">x5</view>
+        </view>
+    </view>
+    <view class="comment">
+        <view class="teacher-comment">
+            <view class="title">
+                <view class="person-t">讲师评分</view>
+                <view class="star" wx:for="{{[1,2,3,4,5]}}">
+                    <view ><image src="/asset/images/star.png" /></view>
+                </view>
+            </view>
+            <view class="textarea">
+                <textarea class="textarea-content" placeholder="请写一下对老师的评价吧"></textarea>
+            </view>
+        </view>
+        <view class="class-comment">
+            <view class="title">
+                <view class="person-t">课程评分</view>
+                <view class="star" wx:for="{{[1,2,3,4,5]}}">
+                    <view ><image src="/asset/images/star.png" /></view>
+                </view>
+            </view>
+            <view class="textarea">
+                <textarea class="textarea-content" placeholder="谈谈对课程的评价"></textarea>
+            </view>
+        </view>
+    </view>
+    <view class="critic">立即评价</view>
+</view>

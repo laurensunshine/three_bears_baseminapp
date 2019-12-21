@@ -1,0 +1,13 @@
+<view class="wrap">
+    <view class="bank-list">
+        
+        <view class="bank-item">
+            <view class="card-name">广大银行</view>
+            <view class="card-type">储蓄卡</view>
+            <view class="card-number">**** **** **** 2134</view>
+        </view>
+    </view>
+</view>
+<navigator open-type="navigate" url="/pages/add-bank/add-bank?navName=添加银行卡">
+    <view class="button">添加银行卡</view>
+</navigator>

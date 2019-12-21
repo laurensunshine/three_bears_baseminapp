@@ -1,0 +1,81 @@
+<view class="wrap">
+    <view class="header-sift">
+        <view class="title">课程订单</view>
+        <view class="sift" bindtap="show">
+            <view class="s-name">筛选</view>
+            <view>
+                <image src="/asset/images/sift.png" />
+            </view>
+        </view>
+    </view>
+    <view class="order-list">
+        <scroll-view scroll-y="{{true}}" class="s-view">
+            <!-- <block wx:for="{{[0,1,2,3,4,5,6,7,8]}}" wx:key="*this"> -->
+            <view class="all-order-item">
+                <view class="order-title">
+                    <view class="order-number">订单编号:00001256498</view>
+                    <view class="order-status">待开课</view>
+                </view>
+                <view class="order-detail">
+                    <view class="pro-pic">
+                        <image src="/asset/images/t_pic2.png" />
+                        <view class="pro">
+                            <view class="pro-name">三只熊水乳套装</view>
+                            <view class="order-teacher">讲师lauren</view>
+                            <view class="order-time">上课时间：2019.10.23 18：00</view>
+                        </view>
+                    </view>
+                    <view class="count">
+                        <view class="price">
+                            <text class="dollar">￥</text>
+                            <text class="price-text">5,600</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="line"></view>
+                <view class="price">
+                    合计：
+                    <text class="dollar">￥</text>
+                    <text class="all-count">15,600</text>
+                </view>
+            </view>
+            <!-- </block> -->
+        </scroll-view>
+    </view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">预约人名称</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">课程名称</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">课程状态</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">课程类型</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">所属店铺</view>
+            <input type="text" class="client-content" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

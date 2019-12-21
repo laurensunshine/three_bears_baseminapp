@@ -1,0 +1,105 @@
+page{
+    background: #fbfafa;
+}
+.class-item{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background: #fbe7e7;
+    padding: 20rpx 24rpx;
+    
+
+}
+.img image{
+    width: 200rpx;
+    height: 200rpx;
+    margin-left: 26rpx;
+}
+.class-detail{
+    margin-left: 20rpx;
+    width: 422rpx;
+}
+.class-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-name{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+}
+.price{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+    color: #ff7979;
+}
+.class-teacher,
+.class-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    height: 34rpx;
+    line-height: 34rpx;
+    margin-top: 4rpx;
+    /* text-align: center; */
+}
+
+.class-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 34rpx;
+    line-height: 34rpx;
+    margin-top: 6rpx;
+}
+.inner-class-number,
+.left-tickets{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+/* 预约客户列表 */
+.container{
+    padding: 24rpx;
+}
+.client-list{
+    width: 670rpx;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 16rpx;
+}
+.client-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26rpx 20rpx;
+}
+.client-content,
+.mobile-content{
+    display: flex;
+    align-items: center;
+}
+.avatar image{
+    width: 72rpx;
+    height: 76rpx;
+    margin-right: 20rpx;
+}
+.name{
+    font-size: 14px;
+}
+.icon image{
+    width: 24rpx;
+    height: 28rpx;
+    margin-right: 8rpx;
+}
+
+.mobile{
+    font-size: 11px;
+    color: rgba(0,0,0,0.41);
+}
+.line{
+    width: 672rpx;
+    height: 2rpx;
+    background: #979797;
+    opacity: 0.1;
+}

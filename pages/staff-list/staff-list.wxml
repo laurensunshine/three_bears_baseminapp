@@ -1,0 +1,109 @@
+<view class="container">
+    <view class="nav">
+        <block wx:for="{{styles}}" wx:key="item">
+            <view class="{{item.class}}" data-index="{{index}}" bind:tap="tab">{{item.title}}</view>
+        </block>
+    </view>
+    <swiper class="tab" current="{{index}}" bindchange="switchTab" style="height:{{winHeight}}rpx">
+        <swiper-item>
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="sift" bindtap="show">
+                    <view class="sift-name">筛选</view>
+                    <view>
+                        <image src="/asset/images/sift.png" />
+                    </view>
+                </view>
+                <view class="staff-list">
+                    <block wx:for="{{staffs}}" wx:key="{{index}}">
+                        <navigator open-type="navigate" url="/pages/staff-detail/staff-detail">
+                            <view class="staff-item">
+                                <view class="s-list">
+                                    <view class="avatar">
+                                        <image src="/asset/images/t_pic2.png" />
+                                    </view>
+                                    <view class="s-name">李晓汶</view>
+                                </view>
+                                <view class="more">
+                                    <image src="/asset/images/more.png" />
+                                </view>
+                            </view>
+                        </navigator>
+                        <view class="line"></view>
+                    </block>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item>
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="sift" bindtap="show">
+                    <view class="s-name">筛选</view>
+                    <view>
+                        <image src="/asset/images/sift.png" />
+                    </view>
+                </view>
+                <view class="staff-list">
+                    <block wx:for="{{staffs}}" wx:key="{{index}}">
+                        <navigator url="/pages/off-staff/off-staff" open-type="navigate">
+                            <view class="staff-item">
+                                <view class="s-list">
+                                    <view class="avatar">
+                                        <image src="/asset/images/t_pic2.png" />
+                                    </view>
+                                    <view class="s-name">李晓汶</view>
+                                </view>
+                                <view class="more">
+                                    <image src="/asset/images/more.png" />
+                                </view>
+                            </view>
+                        </navigator>
+                        <view class="line"></view>
+                    </block>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        <swiper-item class="staff-list">
+            <scroll-view scroll-y="{{true}}" class="s-view">
+                <view class="sift" bindtap="show">
+                    <view class="s-name">筛选</view>
+                    <view>
+                        <image src="/asset/images/sift.png" />
+                    </view>
+                </view>
+                <view class="staff-list">
+                    <block wx:for="{{staffs}}" wx:key="{{index}}">
+                        <navigator url="/pages/stop-staff/stop-staff" open-type="navigate">
+                            <view class="staff-item">
+                                <view class="s-list">
+                                    <view class="avatar">
+                                        <image src="/asset/images/t_pic2.png" />
+                                    </view>
+                                    <view class="s-name">李晓汶</view>
+                                </view>
+                                <view class="more">
+                                    <image src="/asset/images/more.png" />
+                                </view>
+                            </view>
+                        </navigator>
+                        <view class="line"></view>
+                    </block>
+                </view>
+            </scroll-view>
+        </swiper-item>
+    </swiper>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">所属店铺</view>
+            <input type="text" class="client-content" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

@@ -1,0 +1,66 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 70rpx 118rpx;
+}
+.pay-res{
+    height: 44rpx;
+    line-height: 44rpx;
+    font-size:16px;
+    font-family: SimHei;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:40rpx;
+}
+
+/* 金额 */
+.all{
+    display: flex;
+    align-items: center;
+   margin-left: 150rpx;
+}
+.actual-payment{
+    font-size: 12px;
+    color: #9F9F9F;
+    margin: 20rpx 0;
+}
+.count{
+    font-size: 14px;
+    color: #FF7979;
+}
+.dollar{
+    font-size: 12px;
+}
+/* 按钮 */
+.button{
+    display: flex;
+   margin: 50rpx 0;
+}
+.check-order{
+    width: 240rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    text-align: center;
+    font-size:14px;
+    border-radius: 59px;
+    background: #FBEFEE;
+    color: #F59798;
+    margin-right: 50rpx;
+}
+.back-home{
+    width: 240rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    text-align: center;
+    font-size:14px;
+    border-radius: 59px;
+    background: #F59798;
+    color: #fff;
+}
+.tip{
+    width: 520rpx;
+    height: 84rpx;
+    font-size:10px;
+    color: #9F9F9F;
+}

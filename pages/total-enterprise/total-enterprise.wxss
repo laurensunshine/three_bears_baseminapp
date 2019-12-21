@@ -1,0 +1,111 @@
+@import "/asset/style/shade.wxss";
+
+page{
+    background: #FBFAFA;
+}
+.container{
+    padding: 24rpx 24rpx 42rpx;
+}
+
+.charts{
+    width: 702rpx;
+    height: 510rpx;
+    /* margin-top: 24rpx; */
+    background: rgba(245, 151, 152, 1);
+    border-radius: 8px;
+}
+.total-enter{
+    text-align: center;
+    padding-top: 30rpx;
+    color: #fff;
+}
+.total-text{
+    font-size: 14px;
+    margin-bottom: 10rpx;
+    opacity: 0.79;
+}
+.income{
+    font-size: 18px;
+    font-weight: 800;
+}
+.dollar{
+    font-size: 14px;
+    font-weight: 800;
+}
+.chart-area {
+    width: 700rpx;
+    height: 400rpx;
+    margin-top: -30rpx;
+}
+
+ec-canvas {
+    width: 100%;
+    height: 100%;
+}
+.staff-list-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 18rpx 26rpx;
+}
+.sift{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.s-text{
+    font-size: 14px;
+    color: #F59798;
+    margin-right: 12rpx;
+    /* margin-bottom: 4rpx; */
+}
+.icon image{
+    width: 38rpx;
+    height: 30rpx;
+}
+/* 列表 */
+
+
+.staff-goods-item{
+    display: flex;
+    align-items: center;
+    padding: 26rpx;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 20rpx;
+    box-shadow: 0 0 2px 2px #fefefe;
+}
+.avatar image{
+    width: 92rpx;
+    height: 92rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+.g-name{
+    font-size: 14px;
+}
+.g-spec{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    margin-top: 10rpx;
+}
+.money{
+    font-size: 12px;
+    color: #FF7979;
+    margin-left: 170rpx;
+}
+.line{
+    width: 672rpx;
+    height: 2rpx;
+    background: rgba(151, 151, 151, 0.1);
+}
+/* 遮罩层的补充内容 */
+.s-line{
+    width: 518rpx;
+    height: 2rpx;
+    background: rgba(151, 151, 151, 0.1);
+    margin-left: -40rpx;
+    margin-bottom: 30rpx;
+}
+.staff-list{
+    margin-bottom: 38rpx;
+}

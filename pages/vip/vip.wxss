@@ -1,0 +1,172 @@
+@import "/asset/style/shade.wxss";
+
+page {
+  background: #fbfafa;
+}
+
+/* 列表的显示 */
+
+.header {
+  background: #fff;
+  padding: 10rpx 24rpx 0;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+  background: #fff;
+  border-radius: 100px;
+  border: 1px solid #F59798;
+}
+
+.icon image {
+  width: 24rpx;
+  height: 24rpx;
+  margin: 0 20rpx 0 30rpx;
+}
+
+.search-input {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.41);
+  width: 600rpx;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  /* width: 390rpx; */
+  background: #fff;
+}
+
+.nav view {
+  text-align: center;
+  font-size: 16px;
+  font-family: SimHei;
+  font-weight: 800;
+  padding: 30rpx 20rpx;
+}
+
+.now {
+  border-bottom: 3px solid #f59798;
+  color: #f59798;
+}
+
+.sift-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40rpx 0;
+}
+
+.sift-condition {
+  display: flex;
+  align-items: center;
+  margin: 0 24rpx;
+}
+
+.times, .resource {
+  font-size: 12px;
+  margin-right: 14rpx;
+  color: rgba(0, 0, 0, 0.41);
+}
+
+.img image {
+  width: 24rpx;
+  height: 18rpx;
+}
+/* 筛选 */
+.sift{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 26rpx ;
+}
+.s-name{
+  font-size: 14px;
+  color: #F59798;
+  margin-right: 16rpx;
+}
+.sift image{
+  width: 28rpx;
+  height: 30rpx;
+  color: #F59798;
+}
+
+.tab {
+  /* height: 2108rpx; */
+  padding: 0 24rpx;
+}
+
+.s-view {
+  height: 100%;
+}
+
+/* 列表信息 */
+
+.pro-item {
+  /* width: 634rpx; */
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: #fff;
+  padding: 18px 17px;
+  margin-bottom: 20rpx;
+}
+
+.client {
+  display: flex;
+}
+
+.avatar image {
+  width: 104rpx;
+  height: 104rpx;
+  border-radius: 50%;
+}
+
+.p-detail {
+  margin: 14rpx 0 0 32rpx;
+}
+
+.p-name {
+  font-size: 14px;
+}
+
+.p-phone {
+  font-size: 12px;
+  color: #9f9f9f;
+  margin-top: 4px;
+}
+
+.situation {
+  text-align: end;
+  margin-top: 17rpx;
+}
+
+/* .status {
+  font-size: 14px;
+  color: #ff3032;
+  margin-bottom: 14rpx;
+} */
+
+.time {
+  font-size: 12px;
+  color: #979797;
+}
+.time-text{
+  margin-top: 20rpx;
+}
+.line {
+  width: 582rpx;
+  height: 2rpx;
+  background: #979797;
+  opacity: 0.1;
+  margin: 30rpx -36rpx;
+  /* margin-left: -24rpx; */
+}
+
+/* 蒙层补充 */
+
+.shade {
+  margin-left: -24rpx;
+}

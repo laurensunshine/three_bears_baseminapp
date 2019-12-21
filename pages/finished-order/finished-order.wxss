@@ -1,0 +1,37 @@
+page{
+    background: #fbfafa;
+}
+.header{
+    width: 750rpx;
+    height: 292rpx;
+    text-align: center;
+    background: #fbe7e7;
+    padding-top: 30rpx;
+}
+.title{
+    font-size: 24px;
+    color: #F59798;
+}
+.tip{
+    font-size: 14px;
+    color: #737272;
+    margin-top: 10rpx;
+}
+.back-home{
+    width:240rpx;
+    height: 72rpx;
+    line-height: 72rpx;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #F59798;
+    border-radius: 67px;
+    margin:50rpx 244rpx ;
+}
+.like-box{
+    margin: 30rpx 280rpx;
+}
+.like{
+    font-size: 16px;
+    color: #231D1D;
+}

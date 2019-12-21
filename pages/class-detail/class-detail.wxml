@@ -1,0 +1,125 @@
+<view class="wrap">
+    <!-- 幻灯片 -->
+    <swiper class="swiper-img" autoplay="{{true}}" circular="{{true}}" indicator-dots="{{true}}">
+        <swiper-item class="swiper">
+            <image src="/asset/images/a1_class.png" />
+        </swiper-item>
+        <swiper-item class="swiper">
+            <image src="/asset/images/a1_class.png" />
+        </swiper-item>
+        <swiper-item class="swiper">
+            <image src="/asset/images/a1_class.png" />
+        </swiper-item>
+        <swiper-item class="swiper">
+            <image src="/asset/images/a1_class.png" />
+        </swiper-item>
+    </swiper>
+    <!-- 课程信息 -->
+    <view class="class_text">
+        <view class="left">
+            <view class="c-title">高级课程</view>
+            <view class="ticket">
+                <image src="/asset/images/t1.png" />
+                <view class="t-text">6</view>
+            </view>
+        </view>
+        <view class="price-box">
+            <text class="dollar">￥</text>
+            <text class="price">5,600</text>
+        </view>
+    </view>
+    <view class="total">
+        <view class="c-text">总名额:</view>
+        <view class="count">50</view>
+    </view>
+    <view class="begin-time">
+        <view class="b-text">开课时间</view>
+        <view class="b-time">2019.10.01</view>
+    </view>
+    <navigator open-type="navigate" url="/pages/teacher-profile/teacher-profile">
+        <view class="teacher">
+            <view class="teacher-detail">
+                <view class="t-class">上课教师</view>
+                <view class="t-avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <view class="t-person">lauren</view>
+            </view>
+            <view class="more">
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+    </navigator>
+    <!-- 课程评价 -->
+    <view class="comment">
+        <block>
+            <view class="comment-wrap">
+                <view class="comment-item">
+                    <view class="comment-name">课程评价</view>
+                    <view class="check">
+                        <view class="check-all">查看全部</view>
+                        <image src="/asset/images/more.png" />
+                    </view>
+                </view>
+                <view class="c-stu">
+                    <view class="stu-avatar">
+                        <image src="/asset/images/t_pic2.png" />
+                    </view>
+                    <view class="stu-person">王同学</view>
+                    <view class="star">
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star.png" />
+                        <image src="/asset/images/star.png" />
+                    </view>
+                </view>
+                <view class="c-content">
+                    this class is so good,I will come here again and tell my friend!!!
+                </view>
+            </view>
+        </block>
+        <block>
+            <view class="comment-wrap">
+                <view class="comment-item">
+                    <view class="comment-name">课程评价</view>
+                    <view class="check">
+                        <view class="check-all">查看全部</view>
+                        <image src="/asset/images/more.png" />
+                    </view>
+                </view>
+                <view class="c-stu">
+                    <view class="stu-avatar">
+                        <image src="/asset/images/t_pic2.png" />
+                    </view>
+                    <view class="stu-person">王同学</view>
+                    <view class="star">
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star.png" />
+                        <image src="/asset/images/star.png" />
+                    </view>
+                </view>
+                <view class="c-content">
+                    this class is so good,I will come here again and tell my friend!!!
+                </view>
+            </view>
+        </block>
+    </view>
+    <!-- 课程详情 -->
+    <view class="class-detail">
+        <view class="d-title">-课程详情-</view>
+        <view class="d-content">
+            <view class="class-title">
+                this class is so good,I will come here again and tell my friend!!!this class is so good,I will come here again and tell my friend!!!this class is so good,I will come here again and tell my friend!!!this class is so good,I will come here again and tell my friend!!!
+            </view>
+            <image src="/asset/images/a1_class.png" />
+            <image src="/asset/images/a1_class.png" />
+        </view>
+    </view>
+    <navigator open-type="navigate" url="/pages/order/order">
+        <view class="mainten">立即预约</view>
+    </navigator>
+    <view class="block"></view>
+</view>

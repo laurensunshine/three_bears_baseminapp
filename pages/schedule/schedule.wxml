@@ -1,0 +1,47 @@
+<view class="wrap">
+    <view class="content">
+        <view class="calendar-list">
+            <view class='calendar_title flex_nowrap'>
+                <view class='icon' bindtap='lastMonth'>
+                    <image src='/asset/images/back.png' />
+                </view>
+                <view>{{month}}月</view>
+                <view class='icon' bindtap='nextMonth'>
+                    <image src='/asset/images/more.png' />
+                </view>
+            </view>
+            <!-- 日历主体 -->
+            <view class='calendar'>
+                <view class='header'>
+                    <view wx:for='{{date}}' wx:key='' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>
+                        {{item}}
+                        <!-- <view></view> -->
+                    </view>
+                </view>
+                <view class='date-box'>
+                    <block wx:for='{{dateArr}}' wx:key=''>
+                        <view class='{{isToday == item.isToday ? "nowDay" : ""}}'>
+                            <view class='date-head' bindtap='lookHuoDong' data-year='{{year}}' data-month='{{month}}' data-datenum='{{item.dateNum}}'>
+                                <view>{{item.dateNum}}</view>
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </view>
+            <view class="status-box">
+                <view class="status-item">
+                    <view class="icon-normal"></view>
+                    <view class="status-text">上班</view>
+                </view>
+                <view class="status-item">
+                    <view class="icon-off"></view>
+                    <view class="status-text">休班</view>
+                </view>
+                <view class="status-item">
+                    <view class="icon-leave"></view>
+                    <view class="status-text">请假</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

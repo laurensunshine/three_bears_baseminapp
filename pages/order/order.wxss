@@ -1,0 +1,147 @@
+page{
+    background:#fbfafa ;
+}
+.wrap{
+    padding: 24rpx;
+}
+.person{
+    width: 634rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: #fff;
+    padding: 36rpx 34rpx;
+}
+.client{
+    display: flex;
+    align-items: center;
+}
+.avatar image{
+    width: 104rpx;
+    height: 104rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+
+.p-name{
+    font-size: 14px;
+}
+.p-phone{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+/* .more image{
+    width: 16rpx;
+    height: 24rpx;
+
+} */
+.add{
+    width: 702rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    background: #FBEFEE;
+    font-size: 16px;
+    color: #F59798;
+    border-radius: 10px;
+    margin: 12px 0;
+}
+.content{
+    width: 654rpx;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #fff;
+    padding: 14px 12px 13px;
+    margin: 12px 0;
+}
+.c-intro{
+    display: flex;
+}
+.c-intro image{
+    width: 122rpx;
+    height: 122rpx;
+}
+.c-detail{
+    margin:7px 0 0 12px;
+}
+.c-name{
+    font-size: 14px;
+    margin-bottom: 8rpx;
+}
+
+.number{
+    width: 32rpx;
+    height: 40rpx;
+    font-size: 12px;
+    color: #2A2A2A;
+    margin-top: 35px;
+    margin-right: 5px;
+}
+.pay{
+    width: 634rpx;
+    background: #FFF;
+    border-radius: 8px;
+    padding: 13px 17px 15px;
+}
+.p-title{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: SimHei;
+}
+.pay-item{
+    display: flex;
+    justify-content: left;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+.pay-item image{
+    width: 44rpx;
+    height: 44rpx;
+    margin-right: 7px;
+}
+.pay-way{
+    font-size: 14px;
+}
+
+.money{
+    display: flex;
+    justify-content: space-between;
+    width: 702rpx;
+    height: 120rpx;
+    line-height: 120rpx;
+    position: fixed;
+    bottom:12px;
+    background: #FFF;
+    border-radius: 10px;
+}
+.all{
+    display: flex;
+
+}
+.actual-payment{
+    font-size: 12px;
+    color: #9F9F9F;
+    margin: 0 11px 0 16px;
+}
+.price{
+    font-size: 14px;
+    color: #FF7979;
+}
+.dollar{
+    font-size: 12px;
+    color: #FF7979;
+    padding-right: 6rpx;
+}
+.submit{
+    width: 200rpx;
+    height: 72rpx;
+    border-radius: 39px;
+    text-align: center;
+    line-height: 72rpx;
+    font-size: 14px;
+    background: #F59798;
+    color: #FFF;
+    margin:13px 14px 11px 0;
+}

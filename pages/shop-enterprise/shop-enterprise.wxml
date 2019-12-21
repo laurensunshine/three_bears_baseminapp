@@ -1,0 +1,149 @@
+<view class="container">
+    <view class="charts">
+        <view class="total-enter">
+            <view class="total-text">业绩汇总</view>
+            <view class="total-income">
+                <text class="dollar">￥</text>
+                <text class="income">5,600</text>
+            </view>
+        </view>
+        <view class="chart-area">
+            <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+        </view>
+    </view>
+    <view class="staff-list-title">
+        <view class="staff-title">业绩列表</view>
+        <view class="sift" bindtap="show">
+            <view class="s-text">筛选</view>
+            <view class="icon">
+                <image src="/asset/images/sift.png" />
+            </view>
+        </view>
+    </view>
+    <scroll-view scroll-y="{{true}}">
+        <view class="staff-goods-list">
+            <view class="staff-goods-item">
+                <view class="person-detail">
+                    <view>
+                        <text class="g-name">卡（卡）</text>
+                        <text class="g-spec">储蓄卡   1023654789</text>
+                    </view>
+                    <view class="money">￥5,600</view>
+                </view>
+                <view class="g-list">
+                    <view class="goods">
+                        <image src="/asset/images/t_pic1.png" />
+                        <view class="staff-name">员工名称</view>
+                    </view>
+                    <view class="job">美容师</view>
+                </view>
+            </view>
+            <view class="staff-goods-item">
+                <view class="person-detail">
+                    <view>
+                        <text class="g-name">补水面膜</text>
+                        <text class="number">/盒</text>
+                        <text class="g-spec">储蓄卡   1023654789</text>
+                    </view>
+                    <view class="money">￥5,600</view>
+                </view>
+                <view class="g-list">
+                    <view class="goods">
+                        <image src="/asset/images/t_pic1.png" />
+                        <view class="staff-name">员工</view>
+                    </view>
+                    <view class="job">美容师</view>
+                </view>
+            </view>
+            <view class="staff-goods-item">
+                <view class="person-detail">
+                    <view>
+                        <text class="g-name">Lauren</text>
+                        <text class="g-spec">储蓄卡   1023654789</text>
+                    </view>
+                    <view class="money">￥5,600</view>
+                </view>
+                <view class="g-list">
+                    <view class="goods">
+                        <image src="/asset/images/t_pic1.png" />
+                        <view class="staff-name">员工</view>
+                    </view>
+                    <view class="job">美容师</view>
+                </view>
+            </view>
+            <view class="staff-goods-item">
+                <view class="person-detail">
+                    <view>
+                        <text class="g-name">Lauren</text>
+                        <text class="g-spec">储蓄卡   1023654789</text>
+                    </view>
+                    <view class="money">￥5,600</view>
+                </view>
+                <view class="g-list">
+                    <view class="goods">
+                        <image src="/asset/images/t_pic1.png" />
+                        <view class="staff-name">员工</view>
+                    </view>
+                    <view class="job">美容师</view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="s-time">
+            <view class="text">时间区间</view>
+            <view class="time-space">
+                <view class="start-time">
+                    <picker mode="date" value="{{date}}" start="2016-10-28" end="{{data2}}" bindchange="bindStartChange">
+                        <view class="start-time">{{date}}</view>
+                    </picker>
+                </view>
+                <view class="sep"></view>
+                <view class="end-time">
+                    <picker mode="date" value="{{date2}}" start="{{date}}" end="2030-09-01" bindchange="bindEndChange">
+                        <view class="end-time">{{date2}}</view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+        <view class="s-line"></view>
+        <view class="staff">
+            <view class="s-staff">
+                <view class="text">员工</view>
+                <view class="show-list" bindtap="showStaffList" data-status="{{status}}">
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+            <view class="staff-list" hidden="{{hidden}}">
+                <block wx:for="{{name}}" wx:key="{{item}}">
+                    <view class="staff-item">{{item}}</view>
+                </block>
+            </view>
+        </view>
+        <view class="s-line"></view>
+        <view class="staff">
+            <view class="s-staff">
+                <view class="text">项目类型</view>
+                <view class="show-list" bindtap="showProList" data-status="{{status1}}">
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+            <view class="staff-list" hidden="{{hidedena}}">
+                <block wx:for="{{proName}}" wx:key="{{item}}">
+                    <view class="staff-item">{{item}}</view>
+                </block>
+            </view>
+        </view>
+        <view class="s-line"></view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

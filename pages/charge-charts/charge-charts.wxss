@@ -1,0 +1,133 @@
+page {
+    background: #FBFAFA;
+}
+
+.wrap {
+    padding: 24rpx;
+}
+
+.sift-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rpx;
+    /* padding: 24rpx; */
+}
+
+.picker {
+    display: flex;
+    align-items: center;
+    margin: 0 24rpx;
+}
+
+.picker-name {
+    margin-right: 20rpx;
+}
+
+.times, .resource {
+    font-size: 14px;
+    margin-right: 14rpx;
+}
+
+.img image {
+    width: 24rpx;
+    height: 14rpx;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20rpx;
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 20rpx;
+}
+
+.nav view {
+    width: 160rpx;
+    text-align: center;
+    font-size: 16px;
+    font-family: SimHei;
+    font-weight: 800;
+    padding: 30rpx 0;
+}
+
+.now {
+    border-bottom: 2px solid #F59798;
+    color: #F59798;
+}
+
+.s-view {
+    height: 85%;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.top {
+    background: #fff;
+    padding: 38rpx 20rpx 0;
+    box-shadow: 0px 0px 2px 2px rgba(245, 241, 241, 0.1);
+}
+
+.top-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.today-charge {
+    display: flex;
+    align-items: flex-end;
+    font-family: SimHei;
+}
+
+.charge-text {
+    font-size: 12px;
+    padding: 0 20rpx 10rpx 0;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+/* .dollar{
+    font-size: 14px;
+    color: #FF7C7C;
+} */
+
+.total-charge {
+    font-size: 18px;
+    font-weight: 800;
+    color: #FF7C7C;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    margin-right: 8rpx;
+}
+
+.more image {
+    width: 16rpx;
+    height: 24rpx;
+}
+
+/* 报表开始 */
+
+.year-line {
+    width: 702rpx;
+    height: 400rpx;
+    background: #fff;
+    /* margin-top: -70rpx; */
+}
+
+.charts-pie {
+    width: 702rpx;
+    height: 400rpx;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    margin-top: 50rpx;
+}
+
+/* 报表结束 */

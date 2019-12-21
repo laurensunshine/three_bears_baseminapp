@@ -1,0 +1,143 @@
+@import "/asset/style/wuxi.wxss";
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding:24rpx 24rpx 140rpx;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 24rpx 30rpx;
+    border-radius: 8px;
+}
+.avatar{
+    width: 104rpx;
+    height: 104rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+    background: #673495;
+}
+.client-name{
+    font-size: 14px;
+}
+.add-item{
+    background: #fff;
+    border-radius: 8px;
+    margin: 20rpx 0;
+}
+.pro,
+.tec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24rpx 20rpx;
+  
+}
+.pro-name,
+.tec-name{
+    font-size: 14px;
+}
+.picker{
+    display: flex;
+    align-items: center;
+}
+.picker-name{
+    font-size: 12px;
+}
+.img image{
+    width: 18rpx;
+    height: 24rpx;
+    margin-left: 10rpx;
+}
+.line{
+    width: 672rpx;
+    height: 2rpx;
+    background: #979797;
+    opacity: 0.09;
+}
+/* .tag{
+    padding: 28rpx;
+    background: #fff;
+    border-radius: 8px;
+}
+.tag-title{
+    font-size: 13px;
+    margin-bottom: 16rpx;
+}
+.tag-list{
+    display: flex;
+    align-items: center;
+}
+.tag-item{
+    font-size: 12px;
+    padding: 8rpx 20rpx;
+    background: #FBEFEE;
+    border-radius: 8px;
+} */
+.nursing-log{
+    padding: 28rpx;
+    background: #fff;
+    border-radius: 8px;
+    margin: 20rpx 0;
+}
+.nursing-title{
+    font-size: 13px;
+    margin-bottom: 20rpx;
+}
+.log-content{
+    position: relative;
+}
+.log-content textarea{
+    width:638rpx;
+    height: 236rpx;
+    font-size: 12px;
+    border: 1px solid #fbfafa;
+    padding: 10rpx;
+}
+.number{
+    position: absolute;
+    right: 16rpx;
+    bottom: 12rpx;
+    font-size: 10px;
+    color: rgba(0,0,0,0.41);
+}
+.uploads{
+    background: #fff;
+    border-radius: 8px;
+    padding: 28rpx;
+}
+
+
+
+/* 添加图片 */
+.weui-uploader__title{
+    font-size: 13px;
+}
+.weui-uploader__info{
+    font-size: 12px;
+}
+/* 按钮 */
+/* 按钮 */
+
+.add{
+    position: fixed;
+    bottom: 24rpx;
+    left: 24rpx;
+    width: 702rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 74px;
+    background: linear-gradient(to bottom,#FF9FA0,#fbefef);
+    color: #fff;
+}
+.block{
+    width: 750rpx;
+    height: 24rpx;
+    background: #fbfafa;
+    position: fixed;
+    bottom: 0;
+}

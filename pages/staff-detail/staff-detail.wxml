@@ -1,0 +1,91 @@
+<view class="wrap">
+    <view class="head">
+        <view class="s-intro">
+            <view class="avatar">
+                <image src="/asset/images/t_pic2.png" />
+            </view>
+            <view class="name">李晓汶</view>
+            <view class="detail">
+                <view class="number">工号：1100{{}}</view>
+                <view class="seperator"></view>
+                <view class="position">职位：美容师</view>
+            </view>
+        </view>
+    </view>
+    <view class="container">
+        <view class="content clearfix">
+            <view class="all-enter">
+                <view class="enter-icon">
+                    <image src="/asset/images/me/enterprise.png" />
+                    <view class="enterprise">业绩</view>
+                </view>
+                <navigator open-type="navigate" url="/pages/enterprise/enterprise">
+                    <view class="check-more">
+                        <image src="/asset/images/more.png" />
+                    </view>
+                </navigator>
+            </view>
+            <view class="detail-box">
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/phone.png" />
+                        </view>
+                        <view class="item-name">手机</view>
+                    </view>
+                    <view class="item-message">18471245639</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/address.png" />
+                        </view>
+                        <view class="item-name">住址</view>
+                    </view>
+                    <view class="item-message">北京市海淀区</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/idcard.png" />
+                        </view>
+                        <view class="item-name">身份证号</view>
+                    </view>
+                    <view class="item-message">14223315687452136</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/entry.png" />
+                        </view>
+                        <view class="item-name">入职时间</view>
+                    </view>
+                    <view class="item-message">2016-09-17</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/en_contact.png" />
+                        </view>
+                        <view class="item-name">紧急联系人</view>
+                    </view>
+                    <view class="item-message">lauren</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/en_phone.png" />
+                        </view>
+                        <view class="item-name">紧急联系电话</view>
+                    </view>
+                    <view class="item-message">18471245639</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

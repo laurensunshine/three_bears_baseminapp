@@ -1,0 +1,39 @@
+<view class="wrap">
+    <navigator open-type="navigate" url="/pages/class-detail/class-detail?navName=活动详情">
+        <view class="a-class">
+            <view class="img">
+                <image src="/asset/images/a1_class.png" />
+            </view>
+            <view class="container">
+                <view class="class_text">
+                    <view class="left">
+                        <view class="c-title">高级课程</view>
+                        <view class="ticket">
+                            <image src="/asset/images/t1.png" />
+                            <view class="t-text">6/张</view>
+                        </view>
+                    </view>
+                    <view class="status">￥5,600</view>
+                </view>
+                <view class="stars">
+                    <image src="/asset/images/star-active.png" />
+                    <image src="/asset/images/star-active.png" />
+                    <image src="/asset/images/star.png" />
+                    <image src="/asset/images/star.png" />
+                </view>
+                <view class="content">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+                <view class="person">
+                    <view class="pro">
+                        <image src="/asset/images/profile.png" />
+                        <view class="name">lauren</view>
+                    </view>
+                    <view class="time">
+                        <image src="/asset/images/clock.png" />
+                        <view class="date">2019.10.23</view>
+                        <view class="now">18:00</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </navigator>
+</view>

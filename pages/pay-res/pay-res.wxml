@@ -1,0 +1,22 @@
+<view class="wrap">
+    <view class="pay-res">订单支付成功</view>
+    <view class="all">
+        <view class="actual-payment">支付方式：</view>
+        <view class="count">微信支付</view>
+    </view>
+    <view class="all">
+        <view class="actual-payment">支付全额：</view>
+        <view class="count">
+            <text class="dollar">￥</text>
+            <text class="price">5,600</text>
+        </view>
+    </view>
+    <view class="button">
+        <view class="check-order">查看订单</view>
+        <view class="back-home">回到首页</view>
+    </view>
+    <view class="tip">
+        <view class="tip-title">温馨提示：</view>
+        <view class="t-content">三只熊不会以订单异常，系统升级为由要求您点击任何网址链接进行退款操作</view>
+    </view>
+</view>

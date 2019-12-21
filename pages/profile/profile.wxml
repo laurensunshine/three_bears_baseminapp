@@ -1,0 +1,87 @@
+<view class="wrap">
+    <view class="detail-box">
+        <view class="detail-item-avatar">
+            <view class="item-name">头像</view>
+            <view class="check-more">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+        <view class="line"></view>
+        <navigator open-type="navigate" url="/pages/change-name/change-name?navName=更改姓名">
+            <view class="detail-item">
+                <view class="item-name">姓名</view>
+                <view class="check-more">
+                    <view class="item-message">lauren</view>
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+        </navigator>
+        <view class="line"></view>
+        <navigator open-type="navigate" url="/pages/change-number/change-number?navName=更改手机号">
+            <view class="detail-item">
+                <view class="item-name">手机</view>
+                <view class="check-more">
+                    <view class="item-message">18471245639</view>
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+        </navigator>
+        <view class="line"></view>
+        <navigator open-type="navigate" url="/pages/change-nickname/change-nickname?navName=更改用户名">
+            <view class="detail-item">
+                <view class="item-name">用户名</view>
+                <view class="check-more">
+                    <view class="item-message">214-458-458</view>
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+        </navigator>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">工号</view>
+            <view class="check-more">
+                <view class="item-message">0213</view>
+            </view>
+        </view>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">岗位</view>
+            <view class="item-message">店长</view>
+        </view>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">身份证号</view>
+            <view class="item-message">14223315687452136</view>
+        </view>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">出生日期</view>
+            <view class="check-more">
+                <view class="item-message">2016-09-17</view>
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">紧急联系人</view>
+            <view class="item-message">lauren</view>
+        </view>
+        <view class="line"></view>
+        <view class="detail-item">
+            <view class="item-name">紧急联系电话</view>
+            <view class="item-message">18471245639</view>
+        </view>
+        <navigator open-type="navigate" url="/pages/profile/profile?navName=我的资料">
+            <view class="detail-item">
+                <view class="item-name">个人简介</view>
+                <view class="check-more">
+                    <view class="item-message">点击输入个人简介</view>
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

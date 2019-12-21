@@ -1,0 +1,94 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding:24rpx;
+}
+.order-detail{
+    background: #fff;
+    padding: 20rpx 24rpx;
+    border-radius: 8px;
+}
+.order-detail,
+.pro-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-pic image{
+    width: 138rpx;
+    height: 138rpx;
+    margin-right: 28rpx;
+}
+.pro-name{
+    font-size: 14px;
+    font-family: SimHei;
+    font-weight: 800;
+    margin-top:22rpx;
+}
+.order-teacher{
+    margin: 8rpx 0;
+}
+.order-teacher,
+.order-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+
+.count{
+    margin-top: 25rpx;
+}
+.price{
+    font-size: 12px;
+    color: #FF7979;
+    font-family: SimHei;
+    font-weight: 800;
+    margin-bottom: 16rpx;
+}
+.number{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+/* 评论 */
+.teacher-comment,
+.class-comment{
+    padding: 32rpx;
+    border-radius: 8px;
+    background: #fff;
+    margin: 20rpx 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.person-t{
+    font-size: 14px;
+    margin-right: 18rpx;
+}
+.star image{
+    width: 28rpx;
+    height: 27rpx;
+    margin: 0 4rpx;
+}
+.textarea{
+    width: 578rpx;
+    height: 192rpx;
+    padding: 22rpx 30rpx;
+    border: 1px solid #d5d5d5;
+    margin-top: 18rpx;
+}
+.textarea-content{
+    font-size: 12px;
+}
+.critic{
+    position: fixed;
+    bottom:24rpx;
+    left: 24rpx;
+    width: 702rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    border-radius: 68px;
+    background: #F59798;
+    color: #fff;
+    
+}

@@ -1,0 +1,59 @@
+<view class="wrap">
+    <view class="pro-box">
+        <block wx:for="{{clientList}}" wx:key="idx" wx:for-index="idx">
+            <view class="pro-item" bindtap="showClient" data-index="{{idx}}">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <view class="client">
+                    <view class="p-detail">
+                        <view class="p-name">{{item.name}}</view>
+                        <view class="time">{{item.time}}</view>
+                    </view>
+                    <view class="reason">{{item.reason}}</view>
+                </view>
+            </view>
+            <!-- 筛选遮罩层 -->
+            <view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+            <!-- 客户信息遮罩层 -->
+            <view class="shade" bindtap='hideClient' style='display:{{display}}'></view>
+            <view class="clientMessage" hidden="{{item.hiddena}}" style='display:{{display}}' wx:for="{{item.clientMessage}}" wx:key="index" wx:for-item="itema" wx:for-index="index">
+                <view class="s-item" bindtap="showClient" data-test="1">
+                    <view class="choose-client">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic2.png" />
+                        </view>
+                        <view class="m-detail">
+                            <view class="p-name">{{item.name}}</view>
+                            <view class="time">{{itema.position}}</view>
+                        </view>
+                    </view>
+                    <view class="c-content">
+                        <view class="d-time">
+                            <view>
+                                <image src="/asset/images/time.png" />
+                            </view>
+                            <view class="real-time">{{itema.detailTime}}</view>
+                        </view>
+                        <view class="tip">
+                            <view>
+                                <image src="/asset/images/mask.png" />
+                            </view>
+                            <view class="pro-name">{{itema.attenReason}}</view>
+                        </view>
+                        <view class="reason-detail">
+                            <view>
+                                <image src="/asset/images/worker.png" />
+                            </view>
+                            <view class="reason-name">{{itema.attenDetail}}</view>
+                        </view>
+                    </view>
+                    <view class="button">
+                        <view class="decline">拒绝</view>
+                        <view class="agree">同意</view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

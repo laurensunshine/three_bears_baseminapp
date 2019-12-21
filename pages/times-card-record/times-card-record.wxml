@@ -1,0 +1,25 @@
+<view class="wrap">
+    <view class="record-list">
+        <view class="record-item">
+            <view class="record-left">
+                <view class="record-title">肩颈条例套餐</view>
+                <view class="record-staff">店员A</view>
+            </view>
+            <view class="record-right">
+                <view class="times">-1次</view>
+                <view class="record-time">09-02 11：23</view>
+            </view>
+        </view>
+        <view class="line"></view>
+        <view class="record-item">
+            <view class="record-left">
+                <view class="record-title">肩颈条例套餐</view>
+                <view class="record-staff">店员A</view>
+            </view>
+            <view class="record-right">
+                <view class="times">-1次</view>
+                <view class="record-time">09-02 11：23</view>
+            </view>
+        </view>
+    </view>
+</view>

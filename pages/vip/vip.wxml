@@ -1,0 +1,124 @@
+<view class="wrap">
+  <view class="header">
+    <view class="search-box">
+      <view class="icon">
+        <image src="/asset/images/me.png" />
+      </view>
+      <input class="search-input" bindinput="input" bindconfirm='confirm' value="{{inputValue}}" type="text" placeholder="搜索客户名称" />
+    </view>
+  </view>
+  <view class="nav">
+    <block wx:for="{{styles}}" wx:key="item">
+      <view class="{{item.class}}" data-index="{{index}}" bind:tap="tab">{{item.title}}</view>
+    </block>
+  </view>
+  <view class="sift-title">
+    <view class="sift-condition">
+      <view class="times">到店频次</view>
+      <picker bindchange="bindTimesChange" value="{{index1}}" range="{{shopTimes}}" range-key="{{'label'}}">
+        <view class="picker">
+          <view class="picker-name"></view>
+          <view class="img">
+            <image src="/asset/images/down.png" />
+          </view>
+        </view>
+      </picker>
+    </view>
+    <view class="sift-condition">
+      <view class="resource">客户来源</view>
+      <picker bindchange="bindResourceChange" value="{{index3}}" range="{{resource}}" range-key="{{'name'}}">
+        <view class="picker">
+          <view class="picker-name"></view>
+          <view class="img">
+            <image src="/asset/images/down.png" />
+          </view>
+        </view>
+      </picker>
+    </view>
+    <view class="sift-condition">
+      <view class="resource">时间分类</view>
+      <picker bindchange="bindTimeChange" value="{{index2}}" range="{{timeType}}" range-key="{{'label'}}">
+        <view class="picker">
+          <view class="picker-name"></view>
+          <view class="img">
+            <image src="/asset/images/down.png" />
+          </view>
+        </view>
+      </picker>
+    </view>
+    <view class="sift" bindtap="show">
+      <view class="s-name">筛选</view>
+      <view>
+        <image src="/asset/images/sift.png" />
+      </view>
+    </view>
+  </view>
+  <swiper class="tab" current="{{index}}" bindchange="switchTab" style="height:{{winHeight}}rpx">
+    <swiper-item class="pro-box">
+      <scroll-view scroll-y="{{true}}" class="s-view" bindscrolltolower="getVipClientList">
+        <block wx:for="{{vipClientList}}" wx:key="idx" wx:for-index="idx">
+          <!-- <navigator open-type="navigate" url="/pages/vip-detail/vip-detail"> -->
+            <view class="pro-item" data-index="{{idx}}" bind:tap="viptDetail">
+              <view class="client">
+                <view class="avatar">
+                  <!-- <image src="http://192.168.3.21:9001{{item.headImg}}" /> -->
+                </view>
+                <view class="p-detail">
+                  <view class="p-name">{{item.name}}</view>
+                  <view class="p-phone">{{item.phone}}</view>
+                </view>
+              </view>
+              <view class="situation">
+                <view class="time">
+                  <view class="Last-time">上次消费：</view>
+                  <view class="time-text">{{item.lastConsumeTime}}</view>
+                </view>
+              </view>
+            </view>
+          <!-- </navigator> -->
+        </block>
+      </scroll-view>
+    </swiper-item>
+    <swiper-item class="pro-box">
+      <scroll-view scroll-y="{{true}}" class="s-view" bindscrolltolower="getClientList">
+        <block wx:for="{{clientList}}" wx:key="idx"  wx:for-index="idx">
+          <!-- <navigator open-type="navigate" url="/pages/vip-detail/vip-detail"> -->
+            <view class="pro-item" bindtap="clientDetail" data-index="{{idx}}">
+              <view class="client">
+                <view class="avatar">
+                  <!-- <image src="http://192.168.3.21:9001{{item.headImg}}" /> -->
+                </view>
+                <view class="p-detail">
+                  <view class="p-name">{{item.name}}</view>
+                  <view class="p-phone">{{item.phone}}</view>
+                </view>
+              </view>
+              <view class="situation">
+                <view class="time">
+                  <view class="Last-time">上次消费：</view>
+                  <view class="time-text">{{item.lastConsumeTime}}</view>
+                </view>
+              </view>
+            </view>
+          <!-- </navigator> -->
+        </block>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<form class="conts" style='display:{{disp}}'>
+  <view class="content">
+    <view class="s-title" bindtap='hide'>筛选</view>
+    <view class="shop-name">
+      <view class="text">所属店铺</view>
+      <input type="text" class="client-content"/>
+    </view>
+  </view>
+  <view class="button">
+    <view class="reset" bindtap="reset">重置</view>
+    <view class="submit" bindtap="searchShop">确定</view>
+  </view>
+</form>

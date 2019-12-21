@@ -1,0 +1,72 @@
+<view class="wrap">
+    <scroll-view class="s-view" scroll-y="{{true}}">
+        <view class="header">
+            <view class="avatar"></view>
+            <view class="client-name">会员名称</view>
+        </view>
+        <view class="add-item">
+            <view class="pro">
+                <view class="pro-name">项目</view>
+                <picker bindchange="bindProChange" value="{{index1}}" range="{{proName}}">
+                    <view class="picker">
+                        <view class="picker-name">{{proName[index1]}}</view>
+                        <view class="img">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </picker>
+            </view>
+            <view class="line"></view>
+            <view class="tec">
+                <view class="tec-name">技师</view>
+                <picker bindchange="bindTecChange" value="{{index2}}" range="{{tecName}}">
+                    <view class="picker">
+                        <view class="picker-name">{{tecName[index2]}}</view>
+                        <view class="img">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </picker>
+            </view>
+        </view>
+        <!-- <view class="tag">
+            <view class="tag-title">Ta的标签</view>
+            <view class="tag-list">
+                <view class="tag-item">标签</view>
+            </view>
+        </view> -->
+        <view class="nursing-log">
+            <view class="nursing-title">顾客护理日志</view>
+            <view class="log-content">
+                <textarea name="textarea" maxlength="300" />
+                <view class="number">0/300个</view>
+            </view>
+        </view>
+        <view class="uploads">
+            <form>
+                <view class="page-section">
+                    <view class="weui-uploader__hd">
+                        <view class="weui-uploader__title">点击可预览选好的图片</view>
+                        <view class="weui-uploader__info">
+                            {{imageList.length}}/{{count[countIndex]}}
+                        </view>
+                    </view>
+                    <view class="weui-uploader__bd">
+                        <view class="weui-uploader__files">
+                            <block wx:for="{{imageList}}" wx:for-item="image" wx:key="index">
+                                <view class="weui-uploader__file">
+                                    <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+                                </view>
+                            </block>
+                        </view>
+                        <view class="weui-uploader__input-box">
+                            <view class="weui-uploader__input" bindtap="chooseImage"></view>
+                        </view>
+                    </view>
+                </view>
+            </form>
+        </view>
+    </scroll-view>
+    <view class="add">完成记录</view>
+    <view class="block"></view>
+</view>

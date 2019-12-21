@@ -1,0 +1,164 @@
+
+page {
+    background: #fbfafa;
+}
+
+.wrap {
+    padding: 24rpx;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20rpx;
+    background: #fff;
+}
+
+.nav view {
+    text-align: center;
+    font-size: 14px;
+    font-family: SimHei;
+    font-weight: 800;
+    padding: 30rpx;
+}
+
+.now {
+    border-bottom: 2px solid #F59798;
+    color: #F59798;
+}
+
+.tab {
+    /* height: 2108rpx; */
+    padding: 10rpx 24rpx;
+}
+
+.s-view {
+    height: 100%;
+}
+
+.sift {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 14rpx 26rpx;
+}
+
+.sift-name {
+    font-size: 14px;
+    color: #F59798;
+    margin-right: 16rpx;
+}
+
+.sift image {
+    width: 28rpx;
+    height: 30rpx;
+    color: #F59798;
+}
+
+.staff-list {
+    background: #FFF;
+    border-radius: 8px;
+}
+
+.s-list {
+    display: flex;
+}
+
+.s-name {
+    margin: 16rpx 0 0 30rpx;
+    font-size: 14px;
+}
+
+.staff-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 26rpx;
+}
+
+.avatar image {
+    width: 72rpx;
+    height: 72rpx;
+    border-radius: 50%;
+}
+
+.more image {
+    width: 18rpx;
+    height: 24rpx;
+    margin-right: 10rpx;
+    margin-top: 24rpx;
+}
+
+.line {
+    width: 636rpx;
+    height: 2rpx;
+    background: #fbfafa;
+}
+/* 蒙层内容 */
+/* 遮罩层 */
+.shade{    
+    width:100%;    
+    height:100%;    
+    top:0;    
+    background:rgba(0,0,0,0.3);    
+    overflow: hidden;    
+    z-index: 1;     
+    position: fixed;   
+} 
+.conts{    
+    width: 526rpx;    
+    height: 1534rpx;    
+    background-color: white;    
+    position: fixed;    
+    top: 0;
+    right: 0;     
+    z-index: 2;
+    animation:all 2s ease;
+}   
+.content{
+    padding:56rpx 42rpx;
+}  
+.s-title{
+    font-size: 18px;
+} 
+.client-content{
+    width: 428rpx;
+    height: 60rpx;
+    font-size: 12px;
+    background: #F5F5F5;
+    /* opacity: 0.3; */
+    border-radius: 63px;
+    margin-top: 30rpx;
+    padding-left: 30rpx;
+}
+.shop-name{
+    padding: 0 8rpx;
+    margin-bottom: 32rpx;
+    margin-top: 50rpx;
+}
+.button{
+    position: fixed;
+    bottom: 56rpx;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24rpx;
+}
+.reset{
+    width: 224rpx;
+    height: 84rpx;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    line-height: 84rpx;
+    text-align: center;
+    border-radius: 65px;
+    background: #FBEFEE;
+    color: #F59798;
+    margin-right: 28rpx;
+    border:1px solid #FF8181;
+}
+.submit{
+    width: 224rpx;
+    height: 84rpx;
+    line-height: 84rpx;
+    text-align: center;
+    border-radius: 65px;
+    background: linear-gradient(to bottom,#FF9FA0,#FBEFEE);
+    color: #fff;
+}

@@ -1,0 +1,27 @@
+<view class="wrap">
+    <view class="charts">
+        <view class="chart-title">
+            <view class="total-income">
+                <view class="total-text">总收入</view>
+                <view class="today-income">5,600</view>
+            </view>
+            <!-- <view class="more">
+                <view class="more-text">查看更多</view>
+                <view>
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view> -->
+        </view>
+        <view class="charts-content">
+            <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+        </view>
+    </view>
+    <view class="income-box">
+        <block wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:key="index">
+            <view class="income-item">
+                <view class="income">230</view>
+                <view class="income-way">现金</view>
+            </view>
+        </block>
+    </view>
+</view>

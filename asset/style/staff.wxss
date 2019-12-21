@@ -1,0 +1,109 @@
+page{
+    background: #FBFAFA;
+}
+
+.head{
+    width: 750rpx;
+    height: 380rpx;
+    background: #FBE7E7;
+    padding-top: 70rpx;
+}
+
+.avatar image{
+    width: 164rpx;
+    height: 164rpx;
+    border-radius: 50%;
+}
+.s-intro{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.name{
+    height: 44rpx;
+    line-height: 44rpx;
+    text-align: center;
+    font-size: 16px;
+    font-family: SimHei;
+    font-weight: bold;
+    margin-top: 34rpx;
+    margin-bottom: 10rpx;
+}
+.detail{
+    display: flex;
+}
+.number{
+    font-size: 12px;
+    color: #191919;
+}
+.seperator{
+    width: 1px;
+    height: 11px;
+    background: #979797;
+    font-weight: bold;
+    margin: 6rpx 42rpx 0 42rpx;
+}
+.position{
+    font-size: 12px;
+}
+.container{
+   padding: 0 24rpx;
+}
+.content{
+    margin-top: -56rpx;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+    margin-bottom: 30rpx;
+    padding:20rpx 0;
+}
+.enterprise{
+    margin-left: 70rpx;
+}
+.cloumn{
+    width: 2rpx;
+    height: 92rpx;
+    background: #f1f1f1;
+}
+.score{
+    margin-right: 70rpx;
+}
+.detail-box{
+    /* height: 670rpx; */
+    background: #fff;
+    padding:0 30rpx;
+    border-radius: 8px;
+}
+.detail-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:14px;
+    padding:30rpx 0;
+}
+.line{
+    width: 642rpx;
+    height:2rpx;
+    background: #F1F1F1;
+}
+
+.item-message{
+    font-size:12px;
+    color:#000;
+    opacity: 0.41;
+}
+.item-left{
+    display: flex;
+
+}
+.item-icon image{
+    width: 34rpx;
+    height: 36rpx;
+    margin-right: 20rpx;
+}

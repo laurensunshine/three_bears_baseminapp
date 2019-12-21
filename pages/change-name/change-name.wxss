@@ -1,0 +1,36 @@
+@import "/asset/style/button.wxss";
+
+page{
+    background: #fbfafa;
+}
+.wrap{
+   padding: 58rpx; 
+}
+.change{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid   #979797;
+}
+.name{
+    width: 130rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 14px;
+    text-align: justify;
+    margin: 30rpx 10rpx 20rpx 14rpx;
+}
+.change-input{
+    width:462rpx;
+    height:30rpx;
+    margin-top: 17rpx;
+}
+.line{
+    width: 636rpx;
+    height: 4rpx;
+    background: #979797;
+}
+.tip{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    margin-top: 18rpx;
+}

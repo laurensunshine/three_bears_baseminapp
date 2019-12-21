@@ -1,0 +1,70 @@
+<view class="wrap">
+    <view class="class-item">
+        <view class="img">
+            <image src="/asset/images/t_pic1.png" />
+        </view>
+        <view class="class-detail">
+            <view class="class-name">
+                <view class="c-name">高级课程</view>
+                <view class="price">￥5,600</view>
+            </view>
+            <view class="class-teacher">讲师：Lauren</view>
+            <view class="class-time">上课时间：2019.08.01 -2019.09.20</view>
+            <view class="class-number">
+                <view class="inner-class-number">报名人数：34人</view>
+                <view class="left-tickets">余票：34人</view>
+            </view>
+        </view>
+    </view>
+    <scroll-view scroll-y="{{true}}">
+        <view class="container">
+            <view class="client-list">
+                <view class="client-item">
+                    <view class="client-content">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="name">Lauren</view>
+                    </view>
+                    <view class="mobile-content">
+                        <view class="icon">
+                            <image src="/asset/images/me/phone.png" />
+                        </view>
+                        <view class="mobile">15687412369</view>
+                    </view>
+                </view>
+                <view class="line"></view>
+                 <view class="client-item">
+                    <view class="client-content">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="name">Lauren</view>
+                    </view>
+                    <view class="mobile-content">
+                        <view class="icon">
+                            <image src="/asset/images/me/phone.png" />
+                        </view>
+                        <view class="mobile">15687412369</view>
+                    </view>
+                </view>
+                <view class="line"></view>
+                 <view class="client-item">
+                    <view class="client-content">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="name">Lauren</view>
+                    </view>
+                    <view class="mobile-content">
+                        <view class="icon">
+                            <image src="/asset/images/me/phone.png" />
+                        </view>
+                        <view class="mobile">15687412369</view>
+                    </view>
+                </view>
+                <view class="line"></view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

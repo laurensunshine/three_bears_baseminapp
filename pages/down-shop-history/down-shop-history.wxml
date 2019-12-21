@@ -1,0 +1,52 @@
+<view class="wrap">
+    <view class="container">
+        <scroll-view class="s-view" scroll-y="{{true}}">
+            <view class="list">
+                <!-- <navigator open-type="navigate" url="/pages/down-shop-detail/down-shop-detail?navName=下店详情"> -->
+                <view class="item">
+                    <view class="down-shop-item">
+                        <view class="down-home">三只熊（北京总店）</view>
+                        <view class="status">已预约</view>
+                    </view>
+                    <view class="shop-detail">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="down-detail">
+                            <view class="teacher-name">lauren</view>
+                            <view class="down-time">2019.10.21-2019.11.25</view>
+                        </view>
+                    </view>
+                    <view class="sum">
+                        <text class="total-day">总共3天</text>
+                        <text class="total">合计：</text>
+                        <text class="dollar">￥</text>
+                        <text class="salary">1,500</text>
+                    </view>
+                </view>
+                <!-- </navigator> -->
+                <view class="item">
+                    <view class="down-shop-item">
+                        <view class="down-home">三只熊（威海店）</view>
+                        <view class="status">已完成</view>
+                    </view>
+                    <view class="shop-detail">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="down-detail">
+                            <view class="teacher-name">lauren</view>
+                            <view class="down-time">2019.10.21-2019.11.25</view>
+                        </view>
+                    </view>
+                    <view class="sum">
+                        <text class="total-day">总共3天</text>
+                        <text class="total">合计：</text>
+                        <text class="dollar">￥</text>
+                        <text class="salary">1,500</text>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

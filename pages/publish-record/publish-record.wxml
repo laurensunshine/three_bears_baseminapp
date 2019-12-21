@@ -1,0 +1,10 @@
+<view class="wrap">
+    <scroll-view class="s-view" scroll-y="{{true}}">
+        <view class="list">
+            <view class="item">
+                <view class="name">微博推广</view>
+                <view class="time">2019.10.23</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

@@ -1,0 +1,16 @@
+<view class="wrap">
+    <view class="change-box">
+        <view class="change-item">
+            <view class="phone">手机</view>
+            <input type="text" class="change-input" placeholder-style='font-size:12px;'></input>
+        </view>
+         <view class="line"></view>
+        <view class="change-item">
+            <view class="captchar">验证码</view>
+            <input type="number" class="change-input" placeholder-style='font-size:12px;'></input>
+            <view class="time">53S</view>
+        </view>
+       
+    </view>
+</view>
+<view class="button">更改</view>

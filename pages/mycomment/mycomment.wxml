@@ -1,0 +1,63 @@
+<view class="wrap">
+    <scroll-view class="s-view" scroll-y="{{true}}">
+        <view class="comment">
+            <view class="comment-item">
+                <view class="teacher-detail-item">
+                    <view class="t-left">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic2.png" />
+                        </view>
+                        <view class="t-name">老师</view>
+                    </view>
+                    <view class="star">
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star.png" />
+                        <image src="/asset/images/star.png" />
+                    </view>
+                </view>
+                <view class="coment-content">that is nice</view>
+                <view class="comment-time">2019.10.26 14:23:02</view>
+                <view class="class-box">
+                    <view class="class-pic">
+                        <image src="/asset/images/t_pic2.png" />
+                    </view>
+                    <view class="class-detail">
+                        <view class="class-title">高级护理课程</view>
+                        <view class="class-teacher">讲师：lauren</view>
+                    </view>
+                </view>
+            </view>
+            <view class="line"></view>
+            <view class="comment-item">
+                <view class="teacher-detail-item">
+                    <view class="t-left">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic2.png" />
+                        </view>
+                        <view class="t-name">老师</view>
+                    </view>
+                    <view class="star">
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star-active.png" />
+                        <image src="/asset/images/star.png" />
+                        <image src="/asset/images/star.png" />
+                    </view>
+                </view>
+                <view class="coment-content">that is nice</view>
+                <view class="comment-time">2019.10.26 14:23:02</view>
+                <view class="class-box">
+                    <view class="class-pic">
+                        <image src="/asset/images/t_pic2.png" />
+                    </view>
+                    <view class="class-detail">
+                        <view class="class-title">高级护理课程</view>
+                        <view class="class-teacher">讲师：lauren</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</view>

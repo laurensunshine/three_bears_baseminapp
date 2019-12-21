@@ -1,0 +1,150 @@
+page{
+    background: #fbfafa;
+}
+.title{
+    width: 750rpx;
+    height: 242rpx;
+    text-align: center;
+    font-size: 24px;
+    color: #737272;
+    background: #fbe7e7;
+    padding-top: 80rpx;
+}
+.container{
+    padding: 0 24rpx;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: -48rpx;
+}
+.client{
+    width: 634rpx;
+    display: flex;
+    align-items: center;
+    padding: 26rpx 34rpx;
+    border-radius: 8px;
+    background: #fff;
+}
+.avatar image{
+    width: 104rpx;
+    height: 104rpx;
+    margin-right: 32rpx;
+    background: #fbe7e7;
+    border-radius: 50%;
+    
+}
+.client-name{
+    font-size: 14px;
+    margin-bottom: 10rpx;
+}
+.client-phone{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+}
+.order-detail{
+    background: #fff;
+    margin:20rpx 0;
+    padding: 20rpx 24rpx;
+    border-radius: 8px;
+}
+.order-detail,
+.pro-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.pro-pic image{
+    width: 138rpx;
+    height: 138rpx;
+    margin-right: 28rpx;
+}
+.pro-name{
+    font-size: 14px;
+    font-family: SimHei;
+    font-weight: 800;
+    margin-top:22rpx;
+}
+.order-teacher{
+    margin: 8rpx 0;
+}
+.order-teacher,
+.order-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+
+.count{
+    margin-top: 25rpx;
+}
+.price{
+    font-size: 12px;
+    color: #FF7979;
+    font-family: SimHei;
+    font-weight: 800;
+    margin-bottom: 16rpx;
+}
+.number{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+.order-more-detail{
+    padding: 26rpx 30rpx;
+    background: #fff;
+    border-radius: 8px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total-text{
+    font-size: 14px;
+}
+.total-price{
+    font-size: 14px;
+    color: #FF7979;
+}
+.line{
+    width: 636rpx;
+    height: 2rpx;
+    background: #979797;
+    opacity: 0.1;
+    margin: 26rpx 0;
+}
+.order-number,
+.pay-way,
+.pay-time,
+.down-time,
+.done-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    margin: 4rpx 0;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90rpx;
+}
+.del,
+.critic{
+    width: 312rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.del{
+    background: #FBEFEE;
+    color: #f59798;
+}
+.critic{
+    background: #f59798;
+    color: #fff;
+}
+.cancel-class{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    text-align: center;
+    margin-top: 14rpx;
+}

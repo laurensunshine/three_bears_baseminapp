@@ -1,0 +1,62 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+
+.call_input{
+    width: 702rpx;
+    /* padding:/ 15px 15px 15px 17px; */
+}
+
+.dialer-box{
+    display:flex;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    background:#fff;
+    border-bottom: 1px #f9f9f9 solid;
+}
+.dialer{
+    width: 84rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 14px;
+    margin: 30rpx 122rpx 24rpx 34rpx;
+}
+.dialer-input{
+    width:462rpx;
+    height:66rpx;
+    margin-top: 17rpx;
+}
+.phone-box{
+    display:flex;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    background:#fff;
+    border-bottom: 1px #ffeeee solid;
+}
+.phone{
+    width: 112rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 14px;
+    margin: 26rpx 94rpx 30rpx 34rpx;
+}
+.phone-input{
+    width:462rpx;
+    height:66rpx;
+    margin-top: 15rpx;
+}
+.mainten{
+    width: 700rpx;
+    height: 96rpx;
+    position: fixed;
+    bottom: 10px;
+    line-height: 96rpx;
+    text-align: center;
+    background: #F59798;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 55px;
+}

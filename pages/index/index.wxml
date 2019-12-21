@@ -1,0 +1,76 @@
+<view class="wrap">
+  <view class="top">
+    <view class="top-title">
+      <view class="today-income">
+        <text class="income-text">今日收入</text>
+        <text class="dollar">￥</text>
+        <text class="total-income">5,600</text>
+      </view>
+      <navigator open-type="navigate" url="/pages/today-income/today-income">
+        <view class="more">
+          <view class="check">查看</view>
+          <image src="/asset/images/more.png" />
+        </view>
+      </navigator>
+    </view>
+    <view class="chart">
+      <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+    </view>
+  </view>
+  <view class="cotent">
+    <navigator open-type="navigate" url="/pages/residue/residue">
+      <view class="total-left">
+        <image src="/asset/images/index_bac1.png" />
+        <view class="total-left-content">
+          <view class="title">总余量</view>
+          <view class="left">
+            <text class="number">5600</text>
+            <text class="text">元</text>
+            <text class="sep">/</text>
+            <text class="number">560</text>
+            <text class="text">次</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator open-type="navigate" url="/pages/charge-charts/charge-charts">
+      <view class="enterprise">
+        <image src="/asset/images/index_bac2.png" />
+        <view class="enter-content">
+          <view class="enter-title">日常支出</view>
+          <view class="income">
+            <text class="price">5600</text>
+            <text class="text">元</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator open-type="navigate" url="/pages/cards-consume/cards-consume">
+      <view class="total-left">
+        <image src="/asset/images/index_bac1.png" />
+        <view class="total-cards-content">
+          <view class="title">总卡耗</view>
+          <view class="left">
+            <text class="number">5600</text>
+            <text class="text">元</text>
+            <text class="sep">/</text>
+            <text class="number">560</text>
+            <text class="text">次</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator open-type="navigate" url="/pages/all-members/all-members">
+      <view class="enterprise">
+        <image src="/asset/images/index_bac2.png" />
+        <view class="enter-content">
+          <view class="enter-title">会员数</view>
+          <view class="income">
+            <text class="price">5600</text>
+            <text class="text">人</text>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

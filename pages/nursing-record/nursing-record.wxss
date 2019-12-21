@@ -1,0 +1,92 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding:0 24rpx;
+}
+.nrusing-item{
+    background: #fff;
+    border-radius: 8px;
+    padding: 30rpx 36rpx;
+    margin:24rpx 0; 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vip-detail{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    margin-right: 20rpx;
+}
+.avatar image{
+    width: 104rpx;
+    height: 104rpx;
+    border-radius: 50%;
+}
+.vip-name{
+    font-size: 14px;
+    margin-bottom: 14rpx;
+}
+.nursing-name,
+.nursing-time{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+.tec-name{
+    font-size: 13px;
+    margin-top: 26rpx;
+}
+.tag-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16rpx;
+}
+/* .tag{
+   padding: 8rpx 30rpx;
+   background: #FBEFEE; 
+   border-radius: 3px;
+   font-size: 12px;
+    margin: 0 20rpx;
+} */
+.nursing-log{
+    margin-top: 16rpx;
+}
+.log-content{
+    font-size: 12px;
+}
+.log-pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16rpx;
+}
+.log-pics image{
+    width: 200rpx;
+    height: 150rpx;
+}
+/* 按钮 */
+
+.add{
+    position: fixed;
+    bottom: 24rpx;
+    left: 24rpx;
+    width: 702rpx;
+    height: 96rpx;
+    line-height: 96rpx;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 74px;
+    background: linear-gradient(to bottom,#FF9FA0,#fbefef);
+    color: #fff;
+}
+.block{
+    width: 750rpx;
+    height: 24rpx;
+    background: #fbfafa;
+    position: fixed;
+    bottom: 0;
+}

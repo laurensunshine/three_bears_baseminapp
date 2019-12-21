@@ -1,0 +1,64 @@
+@import "/asset/style/shade.wxss";
+
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+.sift {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 14rpx 20rpx;
+    text-align: righ;
+}
+
+.s-name {
+    font-size: 14px;
+    color: #F59798;
+    margin-right: 16rpx;
+}
+
+.sift image {
+    width: 28rpx;
+    height: 30rpx;
+    color: #F59798;
+}
+.teacher-list{
+    background: #fff;
+    border-radius: 8px;
+    padding: 0 16rpx;
+}
+.teacher-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26rpx 0;
+    border-bottom: 1px solid #eee;
+}
+
+.teachre-detail{
+    display: flex;
+    align-items: center;
+    margin: 0 18rpx;
+}
+
+.avatar image{
+    width: 72rpx;
+    height: 72rpx;
+    border-radius: 50%;
+    margin-right: 20rpx;
+}
+.teachere-name{
+    height: 36rpx;
+    line-height: 36rpx;
+    font-size: 13px;
+}
+.more{
+    margin-right: 18rpx;
+}
+.more image{
+    width: 16rpx;
+    height: 24rpx;
+}

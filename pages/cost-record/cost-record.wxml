@@ -1,0 +1,24 @@
+<view class="wrap">
+    <view class="container">
+        <scroll-view scroll-y="{{true}}">
+            <view class="cost-list">
+                <block wx:for="{{consumeData}}" wx:key="item">
+                    <view class="cost-item">
+                        <view class="cost-left">
+                            <view class="cost-name">{{item.consumeContent}}</view>
+                            <view class="card-type">{{item.consumeWay}}</view>
+                        </view>
+                        <view class="cost-right">
+                            <view class="price-box">
+                                <text class="dollar">￥</text>
+                                <text class="price">{{item.consumeMoney}}</text>
+                            </view>
+                            <view class="time">{{item.consumeTime}}</view>
+                        </view>
+                    </view>
+                    <view class="line"></view>
+                </block>
+            </view>
+        </scroll-view>
+    </view>
+</view>

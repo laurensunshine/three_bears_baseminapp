@@ -1,0 +1,8 @@
+<view class="wrap">
+    <view class="change">
+        <view class="name">lauren</view>
+        <input type="text" class="change-input" placeholder-style='font-size:12px;'></input>
+    </view>
+    <view class="tip">请填写您的真实姓名</view>
+</view>
+<view class="button">保存</view>

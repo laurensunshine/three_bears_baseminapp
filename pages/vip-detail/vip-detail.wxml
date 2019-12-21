@@ -1,0 +1,106 @@
+<view class="wrap">
+    <view class="head">
+        <view class="s-intro">
+            <view class="avatar">
+                <!-- <image src="http://192.168.3.21:9001{{detail.headImg}}" /> -->
+            </view>
+            <view class="name">{{detail.name}}</view>
+        </view>
+    </view>
+    <view class="container">
+        <view class="content">
+            <!-- <scroll-view scroll-y="{{true}}"> -->
+            <view class="all">
+                <!-- <navigator open-type="navigate"   url="/pages/cards-detail/cards-detail"> -->
+                <view class="all-item" wx:if="{{detail.member == 1}}" bind:tap="cardsDetail">
+                    <view class="records-img">
+                        <image src="/asset/images/me/vip_card.png" />
+                    </view>
+                    <view class="vip-card">会员卡</view>
+                </view>
+                <!-- </navigator> -->
+                <!-- <navigator open-type="navigate" class="all-item" url="/pages/cost-record/cost-record"> -->
+                <view class="all-item" bind:tap="consumeData">
+                    <view class="records-img">
+                        <image src="/asset/images/me/cost_record.png" />
+                    </view>
+                    <view class="cost-record">消费记录</view>
+                </view>
+                <!-- </navigator> -->
+                <!-- <navigator open-type="navigate" class="all-item" url="/pages/nursing-record/nursing-record"> -->
+                <view class="all-item">
+                    <view class="records-img">
+                        <image src="/asset/images/me/nursing_record.png" />
+                    </view>
+                    <view class="record">护理记录</view>
+                </view>
+                <!-- </navigator> -->
+            </view>
+            <view class="detail-box">
+                <!-- <block wx:for="{{detail}}"> -->
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/birthday.png" />
+                        </view>
+                        <view class="item-name">生日</view>
+                    </view>
+                    <view class="item-message">{{detail.birthday}}</view>
+                </view>
+                <view class="line"></view>
+                <!-- </block> -->
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/phone.png" />
+                        </view>
+                        <view class="item-name">手机</view>
+                    </view>
+                    <view class="item-message">{{detail.phone}}</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/address.png" />
+                        </view>
+                        <view class="item-name">住址</view>
+                    </view>
+                    <view class="item-message">{{detail.address}}</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/idcard.png" />
+                        </view>
+                        <view class="item-name">身份证号</view>
+                    </view>
+                    <view class="item-message">{{detail.identityCard}}</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/resource.png" />
+                        </view>
+                        <view class="item-name">客户来源</view>
+                    </view>
+                    <view class="item-message">{{detail.channel}}</view>
+                </view>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-left">
+                        <view class="item-icon">
+                            <image src="/asset/images/me/notice.png" />
+                        </view>
+                        <view class="item-name">备注</view>
+                    </view>
+                    <view class="item-message">{{detail.remark}}</view>
+                </view>
+            </view>
+            <!-- </scroll-view> -->
+        </view>
+    </view>
+</view>

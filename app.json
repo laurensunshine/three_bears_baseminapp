@@ -1,0 +1,136 @@
+{
+  "pages": [
+ "pages/class-list/class-list",
+    "pages/appoint-list/appoint-list",
+
+
+    "pages/mainten/mainten",
+     
+    "pages/me/me",
+    "pages/bill/bill",
+    "pages/score/score",
+    "pages/publish-record/publish-record",
+    "pages/mycomment/mycomment",
+    "pages/add-address-receive/add-address-receive",
+    "pages/edit-address/edit-address",
+    "pages/add-address/add-address",
+    "pages/bank-card/bank-card",
+    "pages/edit-pass/edit-pass",
+    "pages/add-bank/add-bank",
+    "pages/change-number/change-number",
+    "pages/change-nickname/change-nickname",
+    "pages/change-name/change-name",
+    "pages/profile/profile",  
+    
+   
+    "pages/appoint-class/appoint-class",
+    "pages/class-detail/class-detail",
+    "pages/order/order",
+    "pages/pay-res/pay-res",
+    "pages/add-student/add-student",
+    "pages/total-enterprise/total-enterprise",
+    "pages/shop-enterprise/shop-enterprise",
+
+
+    "pages/down-shop/down-shop",
+    "pages/down-shop-history/down-shop-history",
+    
+    "pages/deal-message/deal-message",
+    
+"pages/vip/vip",
+"pages/vip-detail/vip-detail",
+"pages/nursing-record/nursing-record",
+"pages/add-nursing-record/add-nursing-record",
+"pages/cost-record/cost-record",
+"pages/cards-detail/cards-detail",
+    
+    
+    "pages/enterprise/enterprise",
+    "pages/stop-staff/stop-staff",
+    "pages/off-staff/off-staff",
+    "pages/staff-detail/staff-detail",
+    "pages/staff-list/staff-list",
+    
+   
+    "pages/schedule/schedule",
+    "pages/subject_schedule/subject_schedule",
+    "pages/teacher-list/teacher-list",
+    "pages/teacher-profile/teacher-profile",
+    "pages/myorder/myorder",
+    "pages/myorder-unpay/myorder-unpay",
+    "pages/finished-order/finished-order",
+    "pages/deal-sucess/deal-success",
+    "pages/wait-class/wait-class",
+    "pages/uncritic-order/uncritic-order",
+    "pages/order-detail/order-detail",
+    "pages/wait-factory/wait-factory",
+    "pages/publish-comment/publish-comment",
+    "pages/class-end/class-end",
+
+    "pages/subject/subject",
+    
+    "pages/temp/temp",
+     "pages/index/index",
+    "pages/charge-list/charge-list",
+    "pages/charge-charts/charge-charts",
+    "pages/cards-consume/cards-consume",
+    "pages/all-members/all-members",
+    "pages/residue/residue",
+    "pages/today-income/today-income",
+    
+    "pages/times-card-record/times-card-record",
+    
+   
+    "pages/cart/cart",
+    "pages/shop/shop",
+    
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#9D9C9C",
+    "selectedColor": "#DFADAE",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./asset/images/home.png",
+        "selectedIconPath": "./asset/images/home_active.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "./asset/images/shop.png",
+        "selectedIconPath": "./asset/images/shop_active.png"
+      },
+      {
+        "pagePath": "pages/mainten/mainten",
+        "text": "维护",
+        "iconPath": "./asset/images/mainten.png",
+        "selectedIconPath": "./asset/images/mainten_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "./asset/images/cart.png",
+        "selectedIconPath": "./asset/images/cart_active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "./asset/images/me.png",
+        "selectedIconPath": "./asset/images/me_active.png"
+      }
+    ]
+  }
+}

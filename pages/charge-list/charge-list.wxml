@@ -1,0 +1,106 @@
+<view class="wrap">
+    <view class="header-sift">
+        <view class="title">三只熊皮肤管理(北京店)</view>
+        <view class="sift" bindtap="show">
+            <view class="s-name">筛选</view>
+            <view>
+                <image src="/asset/images/sift.png" />
+            </view>
+        </view>
+    </view>
+    <view class="charge-header">
+        <view class="charge-text">金额</view>
+        <view class="expenditure">
+            <text class="dollar">￥</text>
+            <text class="money">45896,88</text>
+        </view>
+    </view>
+    <view class="container">
+        <scroll-view class="s-view">
+            <view class="charge-list">
+                <view class="charge-item">
+                    <view class="charge-title">
+                        <view class="charge-date">09月23日 星期一</view>
+                        <view class="total-charge">支出：518</view>
+                    </view>
+                    <view class="detail-content">
+                        <view class="detail-item">
+                            <view class="item-left">
+                                <view class="icon"></view>
+                                <view class="detail-name">快递</view>
+                            </view>
+                            <view class="item-money">-26</view>
+                        </view>
+                         <view class="line"></view>
+                        <view class="detail-item">
+                            <view class="item-left">
+                                <view class="icon"></view>
+                                <view class="detail-name">快递</view>
+                            </view>
+                            <view class="item-money">-26</view>
+                        </view>
+                    </view>
+                </view>
+                <view class="charge-item">
+                    <view class="charge-title">
+                        <view class="charge-date">09月23日 星期一</view>
+                        <view class="total-charge">支出：518</view>
+                    </view>
+                   
+                    <view class="detail-content">
+                        <view class="detail-item">
+                            <view class="item-left">
+                                <view class="icon"></view>
+                                <view class="detail-name">快递</view>
+                            </view>
+                            <view class="item-money">-26</view>
+                        </view>
+                        <view class="line"></view>
+                        <view class="detail-item">
+                            <view class="item-left">
+                                <view class="icon"></view>
+                                <view class="detail-name">快递</view>
+                            </view>
+                            <view class="item-money">-26</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<!-- 点击本月的时候 按照条件筛选的列表 -->
+<!-- 蒙层 -->
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">所属店铺</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="s-time">
+            <view class="text">时间区间</view>
+            <view class="time-space">
+                <view class="start-time">
+                    <picker mode="date" value="{{date}}" start="2016-10-28" end="{{data2}}" bindchange="bindStartChange">
+                        <view class="start-time">{{date}}</view>
+                    </picker>
+                </view>
+                <view class="sep"></view>
+                <view class="end-time">
+                    <picker mode="date" value="{{date2}}" start="{{date}}" end="2030-09-01" bindchange="bindEndChange">
+                        <view class="end-time">{{date2}}</view>
+                    </picker>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

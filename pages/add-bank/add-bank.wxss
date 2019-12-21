@@ -1,0 +1,51 @@
+@import "/asset/style/button.wxss";
+
+page{
+    background: #fbfafa;
+}
+.wrap{
+   padding: 24rpx; 
+}
+
+.change-box{
+    background: #fff;
+    border-radius: 8px;
+    padding:0 30rpx;
+}
+.change-item{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24rpx 0;
+}
+.card-name,
+.card-number{
+    width: 112rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    font-size: 14px;
+    text-align: justify;
+    margin-right:  10rpx;
+    margin-top: 8rpx;
+}
+
+.card-name::after,
+.card-number::after{
+    width: 100%;
+    display: inline-block;
+    content: ''
+}
+  
+.change-input
+{
+    width:462rpx;
+    margin-top: 8rpx;
+    padding-left: 14rpx;
+}
+
+.line{
+    width: 636rpx;
+    height: 4rpx;
+    background: #979797;
+    opacity: 0.1;
+}

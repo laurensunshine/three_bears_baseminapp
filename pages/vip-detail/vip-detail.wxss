@@ -1,0 +1,15 @@
+@import "/asset/style/staff.wxss";
+.content{
+    top: -96rpx;
+}
+.all{
+    font-size: 14px;
+}
+.all-item{
+    text-align: center;
+}
+.records-img image{
+    width: 71rpx;
+    height: 53rpx;
+    margin-bottom: 10rpx;
+}

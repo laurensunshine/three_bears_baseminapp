@@ -1,0 +1,139 @@
+/* 遮罩层 */
+.shade{    
+    width:100%;    
+    height:100%;    
+    top:0;    
+    background:rgba(0,0,0,0.3);    
+    overflow: hidden;    
+    z-index: 1;     
+    position: fixed;   
+} 
+.conts{    
+    width: 526rpx;    
+    height: 1534rpx;    
+    background-color: white;    
+    position: fixed;    
+    top: 0;
+    right: 0;     
+    z-index: 2;
+    animation:all 2s ease;
+}   
+.content{
+    padding:56rpx 42rpx;
+}  
+.s-title{
+    font-size: 18px;
+} 
+.s-time{
+    margin:32rpx 0;
+}   
+.s-client,
+.teacher-name,
+.shop-name,
+.class-name{
+    padding: 0 8rpx;
+    margin-bottom: 32rpx;
+}
+.client-content{
+    width: 428rpx;
+    height: 60rpx;
+    font-size: 12px;
+    background: #F5F5F5;
+    /* opacity: 0.3; */
+    border-radius: 63px;
+    margin-top: 30rpx;
+    padding-left: 30rpx;
+}
+.text{
+    font-size: 16px;
+    color: #979797;
+}
+
+/* 筛选条件里的时间选择 */
+.time-space{
+    display: flex;
+    padding-top: 30rpx;
+}
+.start-time,
+.end-time{
+    width: 176rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 12px;
+    background:#F5F5F5;
+    color: rgba(0, 0, 0, 0.41);
+}
+.sep{
+    width: 56rpx;
+    height: 2rpx;
+    background: rgba(0, 0, 0, 0.16);
+    margin: 26rpx 16rpx 0;
+}
+
+
+.staff-list{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.s-staff{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 32rpx;
+}
+.show-list image{
+    width: 24rpx;
+    height: 24rpx;
+}
+.staff-item{
+    width: 136rpx;
+    height: 56rpx;
+    line-height: 56rpx;
+    text-align: center;
+    font-size: 14px;
+    background: #BEBEBE;
+    opacity: 0.3;
+    border-radius: 5px;
+    margin-top: 16rpx;
+}
+.shop-name{
+    margin-top: 50rpx;
+}
+  
+.button{
+    position: fixed;
+    bottom: 56rpx;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24rpx;
+}
+.reset{
+    width: 224rpx;
+    height: 84rpx;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    line-height: 84rpx;
+    text-align: center;
+    border-radius: 65px;
+    background: #FBEFEE;
+    color: #F59798;
+    margin-right: 28rpx;
+    border:1px solid #FF8181;
+}
+.submit{
+    width: 224rpx;
+    height: 84rpx;
+    line-height: 84rpx;
+    text-align: center;
+    border-radius: 65px;
+    background: linear-gradient(to bottom,#FF9FA0,#FBEFEE);
+    color: #fff;
+}
+.s-line{
+    width: 518rpx;
+    height: 2rpx;
+    background: rgba(151, 151, 151, 0.1);
+    margin-left: -40rpx;
+    margin-bottom: 30rpx;
+}

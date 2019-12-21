@@ -1,0 +1,110 @@
+<view class="wrap">
+    <view class="header">
+        <view class="icon">
+            <view class="avatar">
+                <image src="/asset/images/t_pic2.png" />
+            </view>
+            <view class="person-detail">
+                <view class="person-name">lauren</view>
+                <view class="person-work">店长</view>
+            </view>
+        </view>
+        <navigator open-type="navigate" url="/pages/profile/profile?navName=我的资料">
+            <view class="more">
+                <image src="/asset/images/more.png" />
+            </view>
+        </navigator>
+    </view>
+    <view class="container">
+        <view class="content">
+            <view class="person-list">
+                <navigator open-type="navigate" url="/pages/bank-card/bank-card?navName=我的银行卡">
+                    <view class="card">
+                        <view class="number"></view>
+                        <view class="pin-card">银行卡</view>
+                    </view>
+                </navigator>
+                <navigator open-type="navigate" url="/pages/profile/profile?navName=我的收藏">
+                    <view class="card">
+                        <view class="number"></view>
+                        <view class="favorite">收藏</view>
+                    </view>
+                </navigator>
+                <navigator open-type="navigate" url="/pages/bill/bill?navName=我的账单">
+                    <view class="card">
+                        <view class="number"></view>
+                        <view class="bill">账单</view>
+                    </view>
+                </navigator>
+                <navigator open-type="navigate" url="/pages/score/score?navName=我的积分">
+                    <view class="card">
+                        <view class="number"></view>
+                        <view class="score">积分</view>
+                    </view>
+                </navigator>
+            </view>
+            <view class="detail-box">
+                <navigator open-type="navigate" url="/pages/pages/s-pics/s-pics?navName=相册">
+                    <view class="detail-item">
+                        <view class="item-name">相册</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+                <navigator open-type="navigate" url="/pages/add-address-receive/add-address-receive?navName=收货地址">
+                    <view class="detail-item">
+                        <view class="item-name">收货地址</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+                <view class="line"></view>
+                <navigator open-type="navigate" url="/pages/publish-record/publish-record?navName=推广记录">
+                    <view class="detail-item">
+                        <view class="item-name">推广记录</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+                <view class="line"></view>
+                <navigator open-type="navigate" url="/pages/mycomment/mycomment?navName=我的评价">
+                    <view class="detail-item">
+                        <view class="item-name">我的评价</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+                <view class="line"></view>
+                <navigator open-type="navigate" url="/pages/edit-pass/edit-pass?navName=修改密码">
+                    <view class="detail-item">
+                        <view class="item-name">修改密码</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+                <view class="line"></view>
+                <view class="detail-item">
+                    <view class="item-name">客服</view>
+                    <view class="check-more phone">
+                        <view class="phone-number">12546890</view>
+                        <image src="/asset/images/more.png" />
+                    </view>
+                </view>
+                <view class="line"></view>
+                <navigator open-type="navigate" url="/pages/profile/profile?navName=关于我们">
+                    <view class="detail-item">
+                        <view class="item-name">关于我们</view>
+                        <view class="check-more">
+                            <image src="/asset/images/more.png" />
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,59 @@
+<view class="wrap">
+    <block wx:for="{{cardsDetail}}">
+        <view class="card-box">
+            <image class='background' src="/asset/images/cards-bac.png" mode="aspectFill"></image>
+            <view class="card">
+                <view class="card-number">{{item.cardNumber}}</view>
+                <view class="card-address">三只熊（北京店）</view>
+            </view>
+            <view class="card-type">
+                <view class="card-message">
+                    <view class="card-title">{{item.cardTypeName}}</view>
+                    <view class="card-detail">肩颈护理套餐</view>
+                </view>
+                <view class="cards-detail-box">
+                    <view class="card-price">
+                        <text class="last-text">剩余金额</text>
+                        <text class="dollar">￥</text>
+                        <text class="price">{{item.cardPrice}}</text>
+                    </view>
+                    <view class="card-times">
+                        <text class="last-text">剩余次数</text>
+                        <text class="price">{{item.cardSurplusTimes}}次</text>
+                    </view>
+                </view>
+            </view>
+            <view class="card-time-up">有效期：{{item.cardExpireDate}}</view>
+        </view>
+    </block>
+    <!-- <view class="card-box">
+        <image class='background-sec' src="/asset/images/cards-bac.png" mode="aspectFill"></image>
+        <view class="card">
+            <view class="card-number">230125478587</view>
+            <view class="card-address">三只熊（北京店）</view>
+        </view>
+        <view class="card-type">
+            <view class="card-message">
+                <view class="card-title">SPA按摩卡</view>
+                <view class="card-detail">肩颈护理套餐</view>
+            </view>
+            <view class="card-price">5,600</view>
+        </view>
+        <view class="card-time-up">有效期：2019.12.15-2020.10.26</view>
+    </view>
+    <view class="card-box">
+        <image class='background-third' src="/asset/images/cards-bac.png" mode="aspectFill"></image>
+        <view class="card">
+            <view class="card-number">230125478587</view>
+            <view class="card-address">三只熊（北京店）</view>
+        </view>
+        <view class="card-type">
+            <view class="card-message">
+                <view class="card-title">SPA按摩卡</view>
+                <view class="card-detail">肩颈护理套餐</view>
+            </view>
+            <view class="card-price">5,600</view>
+        </view>
+        <view class="card-time-up">有效期：2019.12.15-2020.10.26</view>
+    </view> -->
+</view>

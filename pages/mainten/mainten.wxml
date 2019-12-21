@@ -1,0 +1,120 @@
+<view class="wrap">
+    <view class="header">
+        <image src="/asset/images/t_pic2.png" />
+    </view>
+    <view class="pro-list">
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/total-enterprise/total-enterprise?navName=业绩">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/enterprise.png" />
+                </view>
+                <view class="pro-name">业绩</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/vip/vip?navName=客户">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/client.png" />
+                </view>
+                <view class="pro-name">客户</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/teacher-list/teacher-list?navName=预约课程">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/teacher-list.png" />
+                </view>
+                <view class="pro-name">讲师</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/staff-list/staff-list?navName=员工列表">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/staff.png" />
+                </view>
+                <view class="pro-name">员工</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/myorder/myorder?navName=预约课程">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/appoint_class.png" />
+                </view>
+                <view class="pro-name">订单</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/subject_schedule/subject_schedule?navName=课程表">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/subject_schedule.png" />
+                </view>
+                <view class="pro-name">课程表</view>
+            </navigator>
+        </view>
+        <view class="pro-item">
+            <navigator open-type="navigate" url="/pages/class-list/class-list?navName=课程列表">
+                <view class="pro-icon">
+                    <image src="/asset/images/maintain/class_list.png" />
+                </view>
+                <view class="pro-name">课程列表</view>
+            </navigator>
+        </view>
+    </view>
+    <view class="down-shop">
+        <view class="header-sift">
+            <view class="title">下店</view>
+            <view class="sift" bindtap="show">
+                <view class="s-name">筛选</view>
+                <view>
+                    <image src="/asset/images/sift.png" />
+                </view>
+            </view>
+        </view>
+        <scroll-view scroll-y="{{true}}">
+            <view class="down-shop-list">
+                <view class="down-shop-item">
+                    <view class="down-title">
+                        <view class="shop-name">三只熊(威海店)</view>
+                        <view class="salary">
+                            <text class="dollar">￥</text>
+                            <text class="money">5,689</text>
+                        </view>
+                    </view>
+                    <view class="line"></view>
+                    <view class="shop-detail">
+                        <view class="avatar">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="person-detail">
+                            <view class="teacher-name">lauren</view>
+                            <view class="down-time">2019.12.36-2016.11.12</view>
+                            <view class="notcie">备注：无</view>
+                        </view>
+                        <view class="total-days">共3天</view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">所属店铺</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">下店老师</view>
+            <input type="text" class="client-content" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

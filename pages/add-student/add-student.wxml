@@ -1,0 +1,15 @@
+<view class="wrap">
+    <view class="call_input">
+        <view class="dialer-box">
+            <view class="dialer">联系人</view>
+            <input class="dialer-input" placeholder-style='font-size:12px;' placeholder='请输入联系人'></input>
+        </view>
+        <view class="phone-box">
+            <view class="phone">联系电话</view>
+            <input class="phone-input" placeholder-style='font-size:12px;' placeholder='请输入联系电话'></input>
+        </view>
+    </view>
+    <navigator open-type="navigate" url="/pages/order/order">
+        <view class="mainten">添加学员</view>
+    </navigator>
+</view>

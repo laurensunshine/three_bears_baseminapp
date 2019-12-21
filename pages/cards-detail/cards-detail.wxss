@@ -1,0 +1,94 @@
+page {
+    background: #FBFAFA;
+}
+
+.wrap {
+    padding: 24rpx;
+}
+
+.card-box {
+    width: 646rpx;
+    /* background: #FBEFEE; */
+    border-radius: 8px;
+    padding: 24rpx;
+    position: relative;
+    margin-bottom: 20rpx;
+}
+
+.background {
+    width: 702rpx;
+    height: 362rpx;
+    position: fixed;
+    left: 26rpx;
+    border-radius: 8px;
+    /* background-size:100% 100%; */
+    z-index: -1;
+    top: 24rpx;
+}
+
+/* .background:nth-of-type(1) {
+    top: 24rpx;
+} */
+
+/* .background:nth-of-type(2) {
+    top: 410rpx;
+} */
+/* 
+.background:nth-of-type(3) {
+    top: 798rpx;
+} */
+
+.card {
+    height: 34rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.card-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60rpx 0 70rpx 26rpx;
+}
+
+.card-detail {
+    font-size: 14px;
+    margin-top: 20rpx;
+}
+
+.card-title {
+    height: 60rpx;
+    line-height: 60rpx;
+    font-size: 22px;
+    font-family: Semibold;
+    font-weight: 800;
+}
+
+.price {
+    font-size: 14px;
+    color: #FF7879;
+}
+
+.dollar {
+    font-size: 12px;
+    color: #FF7879;
+}
+
+.last-text {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    padding-right: 20rpx;
+}
+
+.card-times {
+    margin-top: 20rpx;
+}
+
+.card-time-up {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    text-align: right;
+}

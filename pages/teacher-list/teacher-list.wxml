@@ -1,0 +1,77 @@
+<view class="wrap">
+    <view class="sift" bindtap="show">
+        <view class="s-name">筛选</view>
+        <view>
+            <image src="/asset/images/sift.png" />
+        </view>
+    </view>
+    <view class="teacher-list">
+        <navigator open-type="navigate" url="/pages/teacher-profile/teacher-profile?navName=详细信息">
+            <view class="teacher-item">
+                <view class="teachre-detail">
+                    <view class="avatar">
+                        <image src="/asset/images/t_pic2.png" />
+                    </view>
+                    <view class="teachere-name">Lauren</view>
+                </view>
+                <view class="more">
+                    <image src="/asset/images/more.png" />
+                </view>
+            </view>
+        </navigator>
+        <view class="teacher-item">
+            <view class="teachre-detail">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <view class="teachere-name">Lauren</view>
+            </view>
+            <view class="more">
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+        <view class="teacher-item">
+            <view class="teachre-detail">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <view class="teachere-name">Lauren</view>
+            </view>
+            <view class="more">
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+        <view class="teacher-item">
+            <view class="teachre-detail">
+                <view class="avatar">
+                    <image src="/asset/images/t_pic2.png" />
+                </view>
+                <view class="teachere-name">Lauren</view>
+            </view>
+            <view class="more">
+                <image src="/asset/images/more.png" />
+            </view>
+        </view>
+    </view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">讲师名称</view>
+            <input type="text" class="client-content" />
+        </view>
+        <view class="s-line"></view>
+        <view class="teacher-name">
+            <view class="text">讲师国籍</view>
+            <input type="text" class="client-content" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit">确定</view>
+    </view>
+</view>

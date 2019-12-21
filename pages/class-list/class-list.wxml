@@ -1,0 +1,81 @@
+<view class="wrap">
+    <view class="sift-title">
+        <view class="sift-condition">
+            <view class="times">课程状态</view>
+            <picker bindchange="bindClassStatusChange" value="{{index1}}" range="{{classStatus}}" range-key="{{'name'}}">
+                <view class="picker">
+                    <view class="picker-name"></view>
+                    <view class="sift-img">
+                        <image src="/asset/images/down.png" />
+                    </view>
+                </view>
+            </picker>
+        </view>
+        <view class="sift-condition">
+            <view class="resource">课程类型</view>
+            <picker bindchange="bindClassTypeChange" value="{{index3}}" range="{{classType}}" range-key="{{'name'}}">
+                <view class="picker">
+                    <view class="picker-name"></view>
+                    <view class="sift-img">
+                        <image src="/asset/images/down.png" />
+                    </view>
+                </view>
+            </picker>
+        </view>
+        <view class="sift" bindtap="show">
+            <view class="s-text">筛选</view>
+            <view class="icon-sift">
+                <image src="/asset/images/sift.png" />
+            </view>
+        </view>
+    </view>
+    <scroll-view scroll-y="{{true}}">
+        <!-- <navigator open-type="navigate" url="/pages/appoint-list/appoint-list"> -->
+        <view class="class-list">
+            <block wx:for="{{classList}}">
+                <view class="class-item">
+                    <view class="left">
+                        <view class="img">
+                            <image src="/asset/images/t_pic1.png" />
+                        </view>
+                        <view class="class-detail">
+                            <view class="course-name">{{item.name}}</view>
+                            <view class="class-teacher">讲师：{{item.teacherName}}</view>
+                            <!-- <block wx:for="{{item.dateRange}}" wx:for-item="itema"> -->
+                            <view class="class-time">上课时间：{{item.dateRange[0]}}</view>
+                            <!-- </block> -->
+                        </view>
+                    </view>
+                    <view class="class-more">
+                        <view class="class-status" wx:if="{{item.status==1}}">已发布</view>
+                        <view class="class-status" wx:if="{{item.status==2}}">待发布</view>
+                        <view class="class-status" wx:if="{{item.status==3}}">已下架</view>
+                        <view class="class-number">
+                            <view class="icon">
+                                <image src="/asset/images/worker.png" />
+                            </view>
+                            <view class="number">{{item.total}}人</view>
+                        </view>
+                    </view>
+                </view>
+            </block>
+        </view>
+        <!-- </navigator> -->
+    </scroll-view>
+</view>
+<!-- 筛选遮罩层 -->
+<view class="shade" bindtap='hide' style='display:{{disp}}'></view>
+<!-- 筛选内容区域 -->
+<view class="conts" style='display:{{disp}}'>
+    <view class="content">
+        <view class="s-title" bindtap='hide'>筛选</view>
+        <view class="shop-name">
+            <view class="text">课程名称</view>
+            <input type="text" class="client-content" bindinput="input" value="{{keyword}}" />
+        </view>
+    </view>
+    <view class="button">
+        <view class="reset">重置</view>
+        <view class="submit" bind:tap="searchClass">确定</view>
+    </view>
+</view>

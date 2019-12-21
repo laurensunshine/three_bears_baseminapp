@@ -1,0 +1,28 @@
+<view>
+  <scroll-view scroll-x="true" class="tab-h" scroll-left="{{scrollLeft}}">
+    <block wx:for-items="{{newsTab}}">
+      <view data-current="{{index}}" class="tab-item {{currentTab == index ?'active':''}}" bindtap="swichNav" >
+        {{item}}
+      </view>
+    </block>
+  </scroll-view>
+  <swiper class="tab-content" current="{{currentTab}}" duration="300" bindchange="switchTab" style="height:{{winHeight}}rpx">
+    <swiper-item wx:for="{{[0,1,2,3,4,5,6,7]}}">
+      <scroll-view scroll-y="true" class="scoll-h">
+        <block wx:for="{{[0,1,2,3,4,5,6,7,8]}}" wx:key="*this">
+          <view class="item">
+            <view class="img">
+              <image src="{{authorList.img}}"></image>
+            </view>
+            <view class="author-info">
+              <view class="name">{{authorList.name}}</view>
+              <view class="tag">{{authorList.tag}}</view>
+              <view class="answerHistory">{{authorList.answer}}个回答，{{authorList.listen}}人听过 </view>
+            </view>
+            <navigator url="" class="shouting">关注</navigator>
+          </view>
+        </block>
+      </scroll-view>
+    </swiper-item>
+  </swiper>
+</view>

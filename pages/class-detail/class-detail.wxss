@@ -1,0 +1,270 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+/*轮播 */
+.swiper-img{
+    width: 702rpx;
+    height: 476rpx;
+    
+}
+.swiper{
+    border-radius: 8px;
+}
+.swiper>image{
+    width: 702rpx;
+    height: 476rpx;
+    border-radius: 8px;
+}
+
+/* 内容 */
+.class_text{
+    width: 648rpx;
+    height: 44rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rpx 22rpx ; 
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-title{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: SimHei;
+    color: #000;
+}
+
+.ticket image{
+    width: 32rpx;
+    height: 32rpx;
+}
+.ticket{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 14px 0px 13px;
+}
+.t-text{
+    font-size: 16px;
+    color: #FF8787;
+    margin:3px 4px ;
+}
+
+.dollar{
+    font-size: 12px;
+    font-weight: 800;
+    color: #F59798;
+}
+.price{
+    font-size: 16px;
+    color: #FF7979;
+    padding-right: 25px;
+}
+/* 人数 */
+
+.total{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 11px;
+}
+.c-text,
+.count{
+    font-size: 12px;
+    color: #9F9F9F;
+}
+.c-text{
+    margin-right: 10px;
+}
+/* 开课时间 */
+.begin-time{
+    width: 646rpx;
+    height: 40rpx;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: left;
+    padding:10px 14px;
+    margin-top: 13px;
+}
+.b-text{
+    font-size: 12px;
+    color: #9F9F9F;
+    margin-right: 26px;
+}
+.b-time{
+    font-size: 14px;
+    color: #000;
+}
+/* 上课教师 */
+.teacher{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    padding:12px 14px;
+    margin: 13px 0px 15px 0;
+}
+.teacher-detail{
+    display: flex;
+    align-items: center;
+}
+.t-class{
+    font-size: 12px;
+    color: #9F9F9F;
+    margin: 10px 0;
+}
+.t-avatar{
+    margin:0 15px 0px 27px;
+}
+.t-avatar image{
+    width: 72rpx;
+    height: 72rpx;
+    border-radius: 50%;
+}
+.t-person{
+    font-size: 14px;
+    margin:8px 0 ;
+}
+.more image{
+    width: 18rpx;
+    height: 20rpx;
+}
+/* 评价信息 */
+.comment{
+    width: 658rpx;
+    border-radius: 8px;
+    background: #fff;
+    padding: 0px 11px;
+}
+.comment-wrap{
+    width: 648rpx;
+    height: 142rpx;
+    border-bottom: 1px solid #ffeeee;
+    /* background: #fff; */
+    padding: 13px 3px 15px 7px;
+}
+
+.comment-item{
+    display: flex;
+    justify-content: space-between;
+}
+.comment-name{
+    font-size: 14px;
+    font-family:  'Lucida Sans Regular';
+    color: #000;
+}
+.check{
+    display: flex;
+    justify-content: end;
+}
+.check-all{
+    font-size: 12px;
+    color: #9F9F9F;
+    
+}
+.check image{
+    width: 14rpx;
+    height: 20rpx;
+    opacity: 0.4;
+    margin:3px 6px;
+}
+.c-stu{
+    display: flex;
+    margin:10px 6px 5px 13px;
+}
+.stu-avatar image{
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 50%;
+}
+.stu-person{
+    font-size: 12px;
+    color: #9f9f9f;
+    margin:2px 0 0 6px;
+}
+.star{
+    display: flex;
+    align-items: center;
+    margin-left: 10rpx;
+}
+.star image{
+    width: 20rpx;
+    height: 20rpx;
+    margin: 0 4rpx;
+}
+.c-content{
+    font-size:12px;
+    color: #222222;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    margin:1px 0 0 12px;
+}
+/* 课程详情 */
+.class-detail{
+    width: 702rpx;
+    margin-top:15px;
+    margin-bottom: 120rpx;
+}
+.d-title{
+    height: 40rpx;
+    line-height: 40rpx;
+    font-size: 14px;
+    text-align: center;
+}
+.d-content{
+    width: 632rpx;
+    height: 972rpx;
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 9px;
+    padding: 18px 17px 15px 18px;
+}
+.class-title{
+    width: 632rpx;
+    height: 102rpx;
+    overflow: hidden;
+    font-size: 12px;
+    color: #9F9F9F;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.d-content image{
+    width: 632rpx;
+    height: 412rpx;
+    margin-bottom: 8px;
+}
+.call_input{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 按钮 */
+
+.mainten{
+    width: 700rpx;
+    height: 96rpx;
+    position: fixed;
+    bottom: 10px;
+    line-height: 96rpx;
+    text-align: center;
+    background: #F59798;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 47px;
+}
+.block{
+    width: 750rpx;
+    height: 20rpx;
+    background: #F9F8F8;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,72 @@
+<view class="wrap">
+    <view class="header">
+        <view class="icon"></view>
+        <view class="delivery-item">
+            <view class="delivery-way">配送方式：顺丰（到付）</view>
+            <view class="delivery-number">快递单号: 01253698745</view>
+            <view class="delivery-phone">联系电话：010 23256987</view>
+        </view>
+    </view>
+    <view class="container">
+        <view class="content">
+            <view class="delivery-message">
+                <view class="delivery-box">
+                    <view class="m-deleveryed">
+                        <view class="m-title">已发货</view>
+                        <view class="m-title">运输中</view>
+                        <view class="m-title">运输中</view>
+                        <view class="m-title">已收货</view>
+                    </view>
+                    <view class="box">
+                        <view class="delivery-circle">
+                            <view class="circle"></view>
+                            <view class="d-address">北京</view>
+                        </view>
+                        <view class="delivery-circle">
+                            <view class="circle"></view>
+                            <view class="d-address">添加</view>
+                        </view>
+                        <view class="delivery-circle">
+                            <view class="circle"></view>
+                            <view class="d-address">北京</view>
+                        </view>
+                        <view class="delivery-circle">
+                            <view class="circle"></view>
+                            <view class="d-address">北京</view>
+                        </view>
+                    </view>
+                </view>
+           
+            </view>
+            <view class="delivery-detail">
+                <view class="delivery-detail-title">物流详情</view>
+                <view class="line"></view>
+                <view class="delivery-detail-item">
+                    <view class="delivery-list">
+                        <view class="delivery-sequence">
+                            <view class="left-circle"></view>
+                            <view class="right">
+                                <view class="address">北京市进行下级地点扫描</view>
+                                <view class="time">2019-10-24 10:52</view>
+                            </view>
+                        </view>
+                        <view class="delivery-sequence">
+                            <view class="left-circle"></view>
+                            <view class="right">
+                                <view class="address">北京市进行下级地点扫描</view>
+                                <view class="time">2019-10-24 10:52</view>
+                            </view>
+                        </view>
+                        <view class="delivery-sequence">
+                            <view class="left-circle"></view>
+                            <view class="right">
+                                <view class="address">北京市进行下级地点扫描</view>
+                                <view class="time">2019-10-24 10:52</view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

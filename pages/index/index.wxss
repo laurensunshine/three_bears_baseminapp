@@ -1,0 +1,118 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+.top{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow:0px 0px  2px 2px rgba(245, 241, 241, 0.1);
+}
+.top-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rpx 20rpx;
+}
+.income-text,
+.dollar,
+.total-income{
+    font-family: SimHei;
+    font-weight: 600;
+}
+.income-text{
+    font-size: 14px;
+    padding-right: 20rpx;
+}
+.dollar{
+    font-size: 14px;
+    color: #FF7C7C;
+}
+.total-income{
+    font-size: 18px;
+    color: #FF7C7C;
+}
+.more{
+    display: flex;
+    align-items: center;
+}
+.check{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+    margin-right: 8rpx;
+}
+.more image{
+    width: 16rpx;
+    height: 24rpx;
+}
+/* 图表 */
+/* 图表 */
+.chart{
+    width:730rpx;
+    height: 450rpx;
+  }
+  ec-canvas {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+/* 总量展示 */
+.cotent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30rpx;
+}
+.total-left{
+    margin-right:24rpx;
+}
+.total-left image{
+    width: 338rpx;
+    height: 216rpx;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px rgba(245, 161, 155, 0.4);
+}
+.enterprise image{
+    width: 338rpx;
+    height: 216rpx;
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px rgba(247, 236, 235, 0.4);
+}
+.total-left-content{
+    /* position: relative; */
+    /* top: -184rpx; */
+    margin-top: -184rpx;
+    margin-left: 20rpx;
+    color: #fff;
+}
+.total-cards-content{
+    position: relative;
+    top: -184rpx;
+    left: 20rpx;
+    color: #fff;
+}
+.title,.text{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+    margin-bottom: 26rpx;
+}
+.number,.price{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: SimHei;
+}
+.enter-content{
+    position: relative;
+    top: -184rpx;
+    left: 20rpx;
+    color: #fff;
+    color: #f59798;
+}
+.enter-title{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: SimHei;
+    margin-bottom: 26rpx;   
+}

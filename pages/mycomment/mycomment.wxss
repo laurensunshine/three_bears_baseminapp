@@ -1,0 +1,81 @@
+page{
+    background: #fbfafa;
+}
+.wrap{
+    padding: 24rpx;
+}
+/* 评论区域 */
+.comment{
+    padding: 20rpx 30rpx;
+    background: #fff;
+    border-radius: 8px;
+    /* margin-bottom: 30rpx; */
+}
+
+.teacher-detail-item,
+.t-left{
+    display: flex;
+    align-items: center;
+    
+}
+.teacher-detail-item{
+    justify-content: space-between;
+    margin-top: 20rpx;
+}
+.avatar{
+   
+    margin-right: 32rpx;
+}
+.avatar image{
+    width: 60rpx;
+    height: 64rpx;
+    border-radius: 50%;
+}
+.t-name{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+}
+.star image{
+    width: 24rpx;
+    height: 23rpx;
+    margin: 0 6rpx;
+}
+.coment-content{
+    font-size: 14px;
+    color: #222;
+    margin-top:30rpx;
+}
+.comment-time{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.41);
+    text-align: right;
+}
+.class-box{
+    padding: 16rpx;
+    display: flex;
+    align-items: center;
+    margin: 30rpx 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+.class-pic image{
+    width: 164rpx;
+    height: 144rpx;
+}
+.class-pic{
+    margin-right: 30rpx;
+}
+.class-title{
+    font-size: 14px;
+    font-family: SinHei;
+    font-weight: 800;
+}
+.class-teacher{
+    font-size: 12px;
+    color: rgba(0,0,0,0.41);
+}
+.line{
+    width: 636rpx;
+    height: 4rpx;
+    background: #797979;
+    opacity: 0.1;
+}

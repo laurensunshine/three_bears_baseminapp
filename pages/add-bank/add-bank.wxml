@@ -1,0 +1,14 @@
+<view class="wrap">
+    <view class="change-box">
+        <view class="change-item">
+            <view class="card-name">持卡人</view>
+            <input type="text" class="change-input" placeholder="请输入持卡人姓名" placeholder-style='font-size:12px;'></input>
+        </view>
+        <view class="line"></view>
+        <view class="change-item">
+            <view class="card-number">卡号</view>
+            <input type="text" class="change-input" placeholder="请输入卡号" placeholder-style='font-size:12px;'></input>
+        </view>
+    </view>
+</view>
+<view class="button">添加</view>
